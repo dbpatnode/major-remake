@@ -18,8 +18,8 @@ const HomePage = () => (
                         resumeData.socialLinks.map(item => {
                             return (
                                 <li key={item.name}>
-                                    {/* /*<i className={item.className}> </i>*/}
-                                    <a href={item.url} target="_blank" rel="noreferrer">{item.name}</a>
+                                    {/* /*/}
+                                    <a href={item.url} target="_blank" rel="noreferrer"><i className={item.className}> </i></a>
                                 </li>
                             )
                         }
