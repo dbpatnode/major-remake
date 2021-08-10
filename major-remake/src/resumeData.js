@@ -2,9 +2,10 @@ let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Daniel Patnode",
     "role": "Frontend Engineer",
+    "location":"Seattle, WA",
     "linkedinId":"daniel-patnode",
     // "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles and keep active in my free time.",
+    "roleDescription": "I like dabbling in various parts of frontend development and learning about new technologies, diving into documentation and keeping active in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
