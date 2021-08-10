@@ -9,9 +9,10 @@ const HomePage = () => (
         {console.log(resumeData.socialLinks)}
         <div className="row banner">
             <div className="banner-text">
-                <h1 className="responsive-headline">Hi! I'm {resumeData.name}.</h1>
-                <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>A {resumeData.role} located in {resumeData.location}. {resumeData.roleDescription}
-                </h3>
+                <div className="typewriter">
+                    <h1 className="responsive-headline">Hi! I'm {resumeData.name}.</h1>
+                </div>
+                <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>A {resumeData.role} located in {resumeData.location}. {resumeData.roleDescription}</h3>
                 <hr />
                 <ul className="social">
                     {
