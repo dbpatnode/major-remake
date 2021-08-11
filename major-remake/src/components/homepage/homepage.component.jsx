@@ -1,12 +1,12 @@
 import React from 'react';
 import './homepage.style.scss';
 import resumeData from '../../resumeData';
+import { Link } from 'react-scroll'
 // import 'font-awesome/css/font-awesome.min.css';
 // import CoolName from '../coolname/coolname.component'
 
 const HomePage = () => (
     <div className="homepage">
-        {console.log(resumeData.socialLinks)}
         <div className="row banner">
             <div className="banner-text">
                 <div className="typewriter">
@@ -19,7 +19,6 @@ const HomePage = () => (
                         resumeData.socialLinks.map(item => {
                             return (
                                 <li key={item.name}>
-                                    {/* /*/}
                                     <a href={item.url} target="_blank" rel="noreferrer"><i className={item.className}> </i></a>
                                 </li>
                             )
@@ -30,9 +29,11 @@ const HomePage = () => (
             </div>
         </div>
 
-        <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-        </p>
+        <ul>
+            <p className="scrolldown">
+                <li><Link to="about" spy={true} smooth={true}><i className="icon-down-circle"></i></Link></li>
+            </p>
+        </ul>
     </div >
 )
 

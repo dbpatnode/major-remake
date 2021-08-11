@@ -3,8 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './header.style.scss';
 
 const Header = () => (
-    <div className="header">
-
+    <nav id="nav-wrap">
         <NavLink exact to="/" className="home-container">
             HOME
         </NavLink>
@@ -22,7 +21,7 @@ const Header = () => (
                 CONTACT
             </NavLink>
         </div>
-    </div>
+    </nav>
 )
 
 export default Header
