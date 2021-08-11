@@ -5,7 +5,7 @@ import './header.style.scss';
 const Header = () => (
     <nav id="nav-wrap">
         <NavLink exact to="/" className="home-container">
-            HOME
+            Daniel Patnode
         </NavLink>
         <div className='options'>
             <NavLink exact to="/about" className="option">

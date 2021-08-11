@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 #nav-wrap {
     height: 70px;
     width: 100%;
@@ -18,11 +20,12 @@
         background-color: #333; 
     }
 
-    #nav-wrap > a.mobile-btn { display: none; }
+    // #nav-wrap > a.mobile-btn { display: none; }
 
     .home-container {
+        font-family: 'Monoton', cursive;
         height: 100%;
-        width: 70px;
+        width: 300px;
         padding: 25px;
         text-decoration: none;
         text-align: left;
