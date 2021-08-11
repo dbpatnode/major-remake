@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.scss';
+// import './App.scss';
+import "./fontello/css/fontello.css"
 import { Switch, Route } from 'react-router-dom';
 import Header from '../src/components/header/header.component'
 import HomePage from '../src/components/homepage/homepage.component'

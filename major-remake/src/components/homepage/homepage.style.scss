@@ -1,3 +1,4 @@
+
 .homepage {
    position: relative;
    height: 800px;
@@ -21,7 +22,7 @@
       
       .banner-text { 
          width: 100%; 
-         }
+      }
 
       .banner-text h1 {
          font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -89,10 +90,37 @@
             
                a { 
                   color: #fff; 
+                  
                   &:hover { 
                      color: #11ABB0; 
                   }
                }
+         }
+      }
+
+      .scrolldown  {
+         a {
+         position: absolute;
+         bottom: 15vh;
+         left: 50%;
+         margin-left: -29px;
+         color: #fff;
+         display: block;
+         height: 42px;
+         width: 42px;
+         font-size: 42px;
+         line-height: 42px;
+         color: #fff;
+         border-radius: 100%;
+      
+         -webkit-transition: all .3s ease-in-out;
+         -moz-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+         transition: all .3s ease-in-out;
+
+            &:hover { 
+               color: #11ABB0;
+            } 
          }
       }
 }
