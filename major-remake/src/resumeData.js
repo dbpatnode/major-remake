@@ -30,13 +30,15 @@ let resumeData = {
     "education":[
       {
         "UniversityName":"Washington State University",
+        "UniversityUrl":"https://wsu.edu/",
         "specialization":"Bachelor of Science in Agricultural and Food Sciences",
         "MonthOfPassing":"June",
         "YearOfPassing":"2014",
         "Achievements":"Founding member of the Organic Agriculture club."
       },
       {
-        "UniversityName":"Flatiron",
+        "UniversityName":"Flatiron School",
+        "UniversityUrl":"https://flatironschool.com/",
         "specialization":"Full Stack Web Development",
         "MonthOfPassing":"November",
         "YearOfPassing":"2020",
@@ -46,13 +48,14 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"Unearth Labs",
+        "CompanyUrl":"https://unearthlabs.com/",
         "specialization":"Front End Engineer Intern",
         "MonthOfLeaving":"May",
         "YearOfLeaving":"2021",
         "Achievements":"Negated use of older versions of an internal data management platform, which reduced engineering costs and training overhead. Created a cohesive data management tool with MithrilJS, SCSS that enabled the customer service team to fulfill all of their account management needs without workarounds or requests to the engineering team. Applied changes that led to an overall decrease in load time across the platform by 95.8%, with requests to the API taking no longer than 5 seconds to complete in most instances."
       },
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Languages:",
     "skills":[
       {
         "skillname":"HTML5"

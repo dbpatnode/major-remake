@@ -9,17 +9,17 @@ export default class Resume extends Component {
 
                 <div className="row education">
 
-                    <div className="resume-header">
+                    <div className="header-column">
                         <h1><span>Education</span></h1>
                     </div>
 
-                    <div className="resume-content">
+                    <div className="content-column">
                         {
                             resumeData.education && resumeData.education.map((item) => {
                                 return (
                                     <div className="row item">
                                         <div className="twelve columns">
-                                            <h3>{item.UniversityName}</h3>
+                                            <h3><a href={item.UniversityUrl}>{item.UniversityName}</a></h3>
                                             <p className="info">
                                                 {item.specialization}
                                                 <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
@@ -33,12 +33,12 @@ export default class Resume extends Component {
                         }
                     </div>
                 </div>
-                <div className="row work">
-                    <div className="resume-header">
+                <div >
+                    <div className="header-column">
                         <h1><span>Work</span></h1>
                     </div>
 
-                    <div className="resume-content">
+                    <div className="content-column">
                         {
                             resumeData.work && resumeData.work.map((item) => {
                                 return (
@@ -64,15 +64,15 @@ export default class Resume extends Component {
 
                 <div className="row skill">
 
-                    <div className="resume-header">
+                    <div className="skills-header">
                         <h1><span>Skills</span></h1>
                     </div>
 
-                    <div className="resume-content">
+                    <div className="skills-column">
 
-                        <p>
+                        {/* <p>
                             {resumeData.skillsDescription}
-                        </p>
+                        </p> */}
 
                         <div className="bars">
 
