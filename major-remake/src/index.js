@@ -7,6 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  // BrowserRouter Necessary for routing for routing
   <BrowserRouter>
     <React.StrictMode>
       <App />
