@@ -2,8 +2,7 @@ import React from 'react';
 import './homepage.style.scss';
 import resumeData from '../../resumeData';
 import { Link } from 'react-scroll'
-// import 'font-awesome/css/font-awesome.min.css';
-// import CoolName from '../coolname/coolname.component'
+
 
 const HomePage = () => (
     <div className="homepage">

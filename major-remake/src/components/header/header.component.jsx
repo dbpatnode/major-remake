@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+// import { Link } from 'react-scroll'
 import './header.style.scss';
 
 const Header = () => (
@@ -8,17 +9,17 @@ const Header = () => (
             Daniel Patnode
         </NavLink>
         <div className='options'>
-            <NavLink exact to="/about" className="option">
-                ABOUT
-            </NavLink>
             <NavLink exact to="/resume" className="option">
-                RESUME
+                resume
             </NavLink>
             <NavLink exact to="/projects" className="option">
-                PROJECTS
+                projects
+            </NavLink>
+            <NavLink exact to="/blogs" className="option">
+                blogs
             </NavLink>
             <NavLink exact to="/contact" className="option">
-                CONTACT
+                contact
             </NavLink>
         </div>
     </nav>
