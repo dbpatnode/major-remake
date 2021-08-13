@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from '../src/components/header/header.component'
 import LandingPage from '../src/components/landingpage/landingpage.component'
 import Resume from '../src/components/resume/resume.component'
+import Projects from '../src/components/projects/projects.component'
 
 class App extends React.Component {
 render() {
@@ -13,7 +14,7 @@ render() {
         <Switch>
           <Route exact path='/' component={LandingPage} />
           <Route path='/resume' component={Resume}/> 
-          {/* <Route path='/projects' component={HomePage} resumeData={resumeData}/> */}
+          <Route path='/projects' component={Projects} />
           {/* <Route path='/contact' component={HomePage} resumeData={resumeData}/> */}
           
         </Switch>      

@@ -122,34 +122,24 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
+        "name":"checking",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"Headshot.png"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        // "imgurl":"images/portfolio/project.png"
       },
       {
         "name":"project3",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        // "imgurl":"images/portfolio/project2.png"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        // "imgurl":"images/portfolio/phone.jpg"
       }
     ]
   }
