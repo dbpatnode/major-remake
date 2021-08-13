@@ -19,7 +19,7 @@ export default class Resume extends Component {
                                 return (
                                     <div className="row item">
                                         <div className="twelve columns">
-                                            <h3><a href={item.UniversityUrl}>{item.UniversityName}</a></h3>
+                                            <h3><a href={item.UniversityUrl} target="_blank" rel="noreferrer">{item.UniversityName}</a></h3>
                                             <p className="info">
                                                 {item.specialization}
                                                 <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
@@ -44,7 +44,7 @@ export default class Resume extends Component {
                                 return (
                                     <div className="row item">
                                         <div className="twelve columns">
-                                            <h3><a href={item.CompanyUrl}>{item.CompanyName}</a></h3>
+                                            <h3><a href={item.CompanyUrl} target="_blank" rel="noreferrer">{item.CompanyName}</a></h3>
                                             <p className="info">
                                                 {item.specialization}
                                                 <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>

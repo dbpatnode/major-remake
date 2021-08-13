@@ -42,7 +42,7 @@ let resumeData = {
         "specialization":"Full Stack Web Development",
         "MonthOfPassing":"November",
         "YearOfPassing":"2020",
-        "Achievements":"Ruby and Javascript based programming."
+        "Achievements":"Ruby on Rails, and JavaScript Based Programming"
       }
     ],
     "work":[
@@ -50,9 +50,17 @@ let resumeData = {
         "CompanyName":"Unearth Labs",
         "CompanyUrl":"https://unearthlabs.com/",
         "specialization":"Front End Engineer Intern",
-        "MonthOfLeaving":"May",
+        "MonthOfLeaving":"November",
         "YearOfLeaving":"2021",
-        "Achievements":"Negated use of older versions of an internal data management platform, which reduced engineering costs and training overhead. Created a cohesive data management tool with MithrilJS, SCSS that enabled the customer service team to fulfill all of their account management needs without workarounds or requests to the engineering team. Applied changes that led to an overall decrease in load time across the platform by 95.8%, with requests to the API taking no longer than 5 seconds to complete in most instances."
+        "Achievements":"Supported team in fulfilling account management needs while developing and facilitating customer service team with cohesive data management tool, including MithrilJS and SCSS. Coordinated comprehensive knowledge and expertise in improving load time across platform by 95.8% with the help of API as well as supported using of updated version of internal data management. "
+      },
+      {
+        "CompanyName":"Quave CB",
+        "CompanyUrl":"https://quavecb.com/",
+        "specialization":"Scientific Glass Blower",
+        "MonthOfLeaving":"June",
+        "YearOfLeaving":"2020",
+        "Achievements":"Reduced expenditures on external lathe technicians while performing troubleshooting on ill-working lathe equipment through tactful techniques. Streamlined on-boarding process, enhanced productivity of training programs, and ensured highest level of cleanliness for staff members while aligning with upper management. Enhanced customer satisfaction, improved quality and process, and decreased material loss by 30% with implementation of raw material."
       },
     ],
     "skillsDescription":"Languages:",

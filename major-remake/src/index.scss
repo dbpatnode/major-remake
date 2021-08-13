@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  color: #11ABB0;
+  text-decoration: none;
+  &:visited  { color: #11ABB0; }
+  &:hover, &:focus { color: #313131; }
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
