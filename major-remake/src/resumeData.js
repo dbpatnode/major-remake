@@ -124,7 +124,7 @@ let resumeData = {
       {
         "name":"checking",
         "description":"mobileapp",
-        "imgurl":"Headshot.png"
+        "imgUrl":"Headshot.png"
       },
       {
         "name":"project2",
