@@ -2,12 +2,15 @@ import React from 'react';
 
 import './project-item.style.scss';
 
-const CollectionItem = ({ name, imageUrl, description }) => (
+const CollectionItem = ({ name, imgUrl, description }) => (
+    // console.log(imageUrl)
     <div className="project-item">
-        {/* {console.log(imageUrl)} */}
+        {console.log(imgUrl)}
         <img
             className="image"
-            src={`images/dark-pattern.jpg`}
+            src={`images/${imgUrl}`}
+            // src='images/dark-pattern.jpg'
+
             alt={description}
         />
         <div className="collection-footer">

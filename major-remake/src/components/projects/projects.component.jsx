@@ -10,10 +10,11 @@ const Projects = () => {
             <div className='projects'>
                 {
                     resumeData.portfolio && resumeData.portfolio.map((item) => {
-                        // console.log('item', item)
+                        // console.log('item', item.imgUrl)
                         return <ProjectItem
+                            key={item.name}
                             name={item.name}
-                            imageUrl={item.imageUrl}
+                            imgUrl={item.imgUrl}
                             description={item.description}
 
                             item={item}

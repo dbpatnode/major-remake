@@ -124,22 +124,22 @@ let resumeData = {
       {
         "name":"checking",
         "description":"mobileapp",
-        "imgUrl":"Headshot.png"
+        "imgUrl":"dark-pattern.jpg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        // "imgurl":"images/portfolio/project.png"
+        "imgUrl":"dark-pattern.jpg"
       },
       {
         "name":"project3",
         "description":"mobileapp",  
-        // "imgurl":"images/portfolio/project2.png"
+        "imgUrl":"dark-pattern.jpg"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        // "imgurl":"images/portfolio/phone.jpg"
+        "imgUrl":"dark-pattern.jpg"
       }
     ]
   }
