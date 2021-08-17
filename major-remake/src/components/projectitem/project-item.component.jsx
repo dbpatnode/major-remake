@@ -13,7 +13,7 @@ const CollectionItem = ({ name, imgUrl, description }) => (
 
             alt={description}
         />
-        <div className="name">{name}</div>
+        <h1 className="name">{name}</h1>
         <div className="collection-footer">
             <span className="description">{description}</span>
         </div>

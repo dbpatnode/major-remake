@@ -17,6 +17,10 @@
           transform: scale(1.1);
           transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
         }
+
+        & .name {
+            opacity: 0.9
+          }
     }
 
     .image {
@@ -25,16 +29,10 @@
         background-size: cover;
         background-position: center;
         margin-bottom: 5px;
-    
-            // & .content {
-            //   opacity: 0.9
-            // }
     }
 
 
     .name {
-        // width: 50%;
-        // margin-bottom: 15px;
         color: white;
         position: absolute;
         top: 50%;
@@ -47,8 +45,6 @@
         display: flex;
         justify-content: space-between;
         font-size: 18px;
-
-
 
         .description {
         width: 100%;

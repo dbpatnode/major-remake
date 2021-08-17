@@ -5,6 +5,7 @@ import Header from '../src/components/header/header.component'
 import LandingPage from '../src/components/landingpage/landingpage.component'
 import Resume from '../src/components/resume/resume.component'
 import Projects from '../src/components/projects/projects.component'
+import Footer from '../src/components/footer/footer.component'
 
 class App extends React.Component {
 render() {
@@ -17,7 +18,8 @@ render() {
           <Route path='/projects' component={Projects} />
           {/* <Route path='/contact' component={HomePage} resumeData={resumeData}/> */}
           
-        </Switch>      
+        </Switch>
+        <Footer/>    
       </div>
     );
   }
