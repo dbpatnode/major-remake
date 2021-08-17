@@ -140,6 +140,21 @@ let resumeData = {
         "name":"project4",
         "description":"mobileapp",
         "imgUrl":"dark-pattern.jpg"
+      },
+      {
+        "name":"project4",
+        "description":"mobileapp",
+        "imgUrl":"dark-pattern.jpg"
+      },
+      {
+        "name":"project4",
+        "description":"mobileapp",
+        "imgUrl":"dark-pattern.jpg"
+      },
+      {
+        "name":"project4",
+        "description":"mobileapp",
+        "imgUrl":"dark-pattern.jpg"
       }
     ]
   }
