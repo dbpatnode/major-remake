@@ -14,6 +14,8 @@ const CollectionItem = ({ name, imgUrl, description }) => (
             alt={description}
         />
         <h1 className="name">{name}</h1>
+        <button className="github-button">Github</button>
+        <button className="livesite-button">LiveSite</button>
         <div className="collection-footer">
             <span className="description">{description}</span>
         </div>
