@@ -4,11 +4,13 @@ import './project-item.style.scss';
 
 const CollectionItem = ({ name, imgUrl, description }) => (
     <div className="project-item">
-        <img
+        <div
             className="image"
-            src={`images/${imgUrl}`}
-            alt={description}
-        />
+            style={{
+                backgroundImage: `url(/images/${imgUrl})`
+            }}
+        >
+        </div>
         <h1 className="name">{name}</h1>
         <a className="button" id="github-button">Github</a>
         <a className="button" id="demo-button">Demo</a>

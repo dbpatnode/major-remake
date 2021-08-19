@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import resumeData from '../../resumeData';
-import Headshot from '../../images/Headshot.png'
+import Headshot from './headshot.png'
 import './about.style.scss'
 
 export default class About extends Component {
