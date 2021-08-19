@@ -14,8 +14,13 @@
         transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
         }
 
+        & .collection-footer {
+            opacity: 1;
+        }
+
         & .name {
-            opacity: 0.9
+            opacity: 0.9;
+            color: #11ABB0;
         }
     }
 
@@ -27,95 +32,74 @@
         margin-bottom: 5px;
     }
 
+    .name {
+        color: white;
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        margin: 0 auto;
+        transform: translate(-50%, -50%);
+        }
+
+        #github-button {
+            color: white;
+            font-size: 28px;
+            position: absolute;
+            top: 60%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            &:hover {
+                cursor: pointer;
+                color: #11ABB0;
+                border-color: #FFFFFF;
+            }
+        }
+        
+        #demo-button {
+            color: white;
+            font-size: 28px;
+            position: absolute;
+            top: 60%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+
+            &:hover {
+                cursor: pointer;
+                color: #11ABB0;;
+                border-color: #FFFFFF;
+            }
+
+            &:active {
+                color:#BBBBBB;
+                border-color:#BBBBBB;
+            }
+        }
+
     .collection-footer {
+
+        opacity: 0;
+
+        // font-size: 40px;
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        // color: #1c87c9;
+        // background-color: rgba(200, 200, 200, 0.5);
+        // width: 300px;
+        // height: 300px;
+
+        // text-align: center;
+
         width: 100%;
         height: 5%;
         display: flex;
         justify-content: space-between;
         font-size: 18px;
-
-        .name {
-            color: white;
-            position: absolute;
-            top: 52%;
-            left: 50%;
-            margin: 0 auto;
-            transform: translate(-50%, -50%);
-            }
-    
-            #github-button {
-                color: white;
-                font-size: 28px;
-                position: absolute;
-                top: 60%;
-                left: 45%;
-                transform: translate(-50%, -50%);
-                &:hover {
-                    cursor: pointer;
-                    color: #11ABB0;;
-                    border-color: #FFFFFF;
-                }
-
-
-            }
-    
-            #demo-button {
-                // margin: 0 auto;
-                color: white;
-                font-size: 28px;
-                position: absolute;
-                top: 60%;
-                left: 55%;
-                transform: translate(-50%, -50%);
-                // display:inline-block;
-                // padding: 0.5em 1em; 
-                // border: 0.16em solid #FFFFFF;
-                // margin: 0 0.3em 0;
-                // box-sizing: border-box;
-                // text-decoration: none;
-                // text-transform: uppercase;
-                // font-weight: 400;
-                // color: #FFFFFF;
-                // text-align: center;
-                // transition: all 0.15s;
-    
-                &:hover {
-                    cursor: pointer;
-                    color: #11ABB0;;
-                    border-color: #FFFFFF;
-                }
-    
-                &:active {
-                    color:#BBBBBB;
-                    border-color:#BBBBBB;
-                }
-            }
-
-            /* button asthetic */
-            // .button {
-            //     display:inline-block;
-            //     padding: 0.5em 1em; 
-            //     border: 0.16em solid #FFFFFF;
-            //     margin: 0 0.3em 0;
-            //     box-sizing: border-box;
-            //     text-decoration: none;
-            //     text-transform: uppercase;
-            //     font-weight: 400;
-            //     color: #FFFFFF;
-            //     text-align: center;
-            //     transition: all 0.15s;
-    
-            //     &:hover {
-            //         cursor: pointer;
-            //         color: #11ABB0;;
-            //         border-color: #FFFFFF;
-            //     }
-    
-            //     &:active {
-            //         color:#BBBBBB;
-            //         border-color:#BBBBBB;
-            //     }
-            // }
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
 
             .description {
                 width: 65%;
