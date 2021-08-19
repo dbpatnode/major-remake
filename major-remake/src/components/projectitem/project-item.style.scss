@@ -5,7 +5,7 @@
     width: 22%;
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 550px;
     align-items: center;
 
     &:hover {
@@ -37,7 +37,7 @@
         .name {
             color: white;
             position: absolute;
-            top: 30%;
+            top: 52%;
             left: 50%;
             margin: 0 auto;
             transform: translate(-50%, -50%);
@@ -45,10 +45,10 @@
     
             #github-button {
                 color: white;
-                font-size: 30px;
+                font-size: 28px;
                 position: absolute;
-                top: 50%;
-                left: 37%;
+                top: 60%;
+                left: 45%;
                 transform: translate(-50%, -50%);
                 &:hover {
                     cursor: pointer;
@@ -60,12 +60,12 @@
             }
     
             #demo-button {
-                margin: 0 auto;
+                // margin: 0 auto;
                 color: white;
-                font-size: 30px;
+                font-size: 28px;
                 position: absolute;
-                top: 50%;
-                left: 64%;
+                top: 60%;
+                left: 55%;
                 transform: translate(-50%, -50%);
                 // display:inline-block;
                 // padding: 0.5em 1em; 
@@ -121,7 +121,7 @@
                 width: 65%;
                 color: white;
                 position: absolute;
-                top: 67%;
+                top: 72%;
                 left: 50%;
                 margin: 0 auto;
                 transform: translate(-50%, -50%);
