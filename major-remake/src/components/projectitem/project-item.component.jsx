@@ -3,19 +3,15 @@ import React from 'react';
 import './project-item.style.scss';
 
 const CollectionItem = ({ name, imgUrl, description }) => (
-    // console.log(imageUrl)
     <div className="project-item">
-        {console.log(imgUrl)}
         <img
             className="image"
             src={`images/${imgUrl}`}
-            // src='images/dark-pattern.jpg'
-
             alt={description}
         />
         <h1 className="name">{name}</h1>
-        <button className="github-button">Github</button>
-        <button className="livesite-button">LiveSite</button>
+        <a className="button" id="github-button">Github</a>
+        <a className="button" id="demo-button">Demo</a>
         <div className="collection-footer">
             <span className="description">{description}</span>
         </div>

@@ -1,8 +1,6 @@
 .project-item {
-
     position: relative;
     text-align: center;
-    // color: white;  
     padding: 70px;
     width: 22%;
     display: flex;
@@ -11,16 +9,14 @@
     align-items: center;
 
     &:hover {
-        cursor: pointer;
-
         & .image {
-          transform: scale(1.1);
-          transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        transform: scale(1.1);
+        transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
         }
 
         & .name {
             opacity: 0.9
-          }
+        }
     }
 
     .image {
@@ -32,27 +28,52 @@
     }
 
 
-    .name {
+        .name {
         color: white;
         position: absolute;
         top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
         }
+
+        #github-button {
+            position: absolute;
+            top: 50%;
+            left: 37%;
+            transform: translate(-50%, -50%);
+        }
     
-    .github-button {
-        // color: white;
-        position: absolute;
-        top: 50%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-    }
-    .livesite-button {
-        position: absolute;
-        top: 50%;
-        left: 60%;
-        transform: translate(-50%, -50%);
-    }
+        #demo-button {
+            position: absolute;
+            top: 50%;
+            left: 64%;
+            transform: translate(-50%, -50%);
+        }
+        /* button look */
+        .button {
+            display:inline-block;
+            padding: 0.5em 1em; 
+            border: 0.16em solid #FFFFFF;
+            margin: 0 0.3em 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: #FFFFFF;
+            text-align: center;
+            transition: all 0.15s;
+
+            &:hover {
+                cursor: pointer;
+                color: #11ABB0;;
+                border-color: #FFFFFF;
+            }
+
+            &:active {
+                color:#BBBBBB;
+                border-color:#BBBBBB;
+            }
+        }
 
     .collection-footer {
         width: 100%;
