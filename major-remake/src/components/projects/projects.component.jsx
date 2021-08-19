@@ -14,6 +14,8 @@ const Projects = () => {
                             name={item.name}
                             imgUrl={item.imgUrl}
                             description={item.description}
+                            githubUrl={item.githubUrl}
+                            linkUrl={item.linkUrl}
                             item={item}
                         />
                     })

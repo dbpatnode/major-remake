@@ -2,7 +2,7 @@ import React from 'react';
 
 import './project-item.style.scss';
 
-const CollectionItem = ({ name, imgUrl, description }) => (
+const CollectionItem = ({ name, imgUrl, description, githubUrl, linkUrl }) => (
     <div className="project-item">
         <div
             className="image"
@@ -12,8 +12,8 @@ const CollectionItem = ({ name, imgUrl, description }) => (
         >
         </div>
         <h1 className="name">{name}</h1>
-        <a className="button" id="github-button"><i className="fa fa-github" /></a>
-        <a className="button" id="demo-button"><i className="fa fa-link" /></a>
+        <a href={githubUrl} id="github-button" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a>
+        <a href={linkUrl} id="demo-button" target="_blank" rel="noreferrer"><i className="fa fa-link" /></a>
         <div className="collection-footer">
             <span className="description">{description}</span>
         </div>
