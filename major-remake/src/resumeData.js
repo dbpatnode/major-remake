@@ -122,23 +122,23 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"checking",
-        "description":"mobileapp",
+        "name":"BrewMaps",
+        "description":"Brewery mapping application allows users to view breweries across the United States, while keeping an active log of their experiences.",
         "imgUrl":"dark-pattern.jpg"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
+        "name":"FavFest",
+        "description":"Festival jouranling application that gives users the ability to view festivals and musical artists, while keeping a notes on their experiences",
         "imgUrl":"dark-pattern.jpg"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
+        "name":"Oasis",
+        "description":"Access point application that allows users to find lesser known rooftop parks and destinations.",  
         "imgUrl":"dark-pattern.jpg"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
+        "name":"OHOHOH",
+        "description":"Pet adoption application with both admin and user capabilities.",
         "imgUrl":"dark-pattern.jpg"
       },
       {
