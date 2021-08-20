@@ -125,7 +125,7 @@ let resumeData = {
         "name":"Portfolio V1",
         "description":"First iteration of my portfolio site showcasing my work as a software developer.",
         "imgUrl":"headshot.png",
-        "githubUrl":"",
+        // "githubUrl":"",
         "linkUrl":"https://danielpatnode.netlify.app/",
         "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "cli", "ticketMaster" ]
       },
@@ -134,7 +134,8 @@ let resumeData = {
         "description":"Brewery mapping application allows users to view breweries across the United States, while keeping an active log of their experiences.",
         "imgUrl":"brewmaps.png",
         "githubUrl":"https://github.com/dbpatnode/brewmaps-frontend",
-        "linkUrl":"https://www.youtube.com/watch?v=B3SEAptSnTM&t=3s",
+        // "linkUrl":
+        "youtube":"https://www.youtube.com/watch?v=B3SEAptSnTM&t=3s", 
         "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "cli", "ticketMaster" ]
       },
       {
@@ -150,7 +151,7 @@ let resumeData = {
         "description":"Access point application that allows users to find lesser known rooftop parks and destinations.",  
         "imgUrl":"Oasis.jpg",
         "githubUrl":"https://github.com/tshlos/oasis",
-        "linkUrl":"https://www.youtube.com/watch?v=NBWNe6LE7xw&t=1s",
+        "youtube":"https://www.youtube.com/watch?v=NBWNe6LE7xw&t=1s",
         "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "cli", "ticketMaster" ]
       },
       {
@@ -158,7 +159,7 @@ let resumeData = {
         "description":"Pet adoption application with both admin and user capabilities.",
         "imgUrl":"OHOHOH.jpg",
         "githubUrl":"https://github.com/cortezd334/OHOHOH",
-        "linkUrl":"https://www.youtube.com/watch?v=iwHu_6Okfxo&t=143s",
+        "youtube":"https://www.youtube.com/watch?v=iwHu_6Okfxo&t=143s",
         "techStack": ["html", "css", "ruby","sqlite", "javaScript" ]
       }
     ]

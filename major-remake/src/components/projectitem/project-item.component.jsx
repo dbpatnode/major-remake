@@ -80,9 +80,8 @@ class CollectionItem extends React.Component {
     }
 
     render() {
-        const { name, imgUrl, description, githubUrl, linkUrl, techStack } = this.props
+        const { name, imgUrl, description, githubUrl, linkUrl, youtube, techStack } = this.props
         return (
-            // ({ name, imgUrl, description, githubUrl, linkUrl, techStack }) => (
             <div className="project-item">
                 <div
                     className="image"
@@ -92,8 +91,26 @@ class CollectionItem extends React.Component {
                 >
                 </div>
                 <h1 className="name">{name}</h1>
-                <a href={githubUrl} id="github-button" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a>
-                <a href={linkUrl} id="demo-button" target="_blank" rel="noreferrer"><i className="fa fa-link" /></a>
+                <div className="link-container">
+                    {
+                        githubUrl ?
+                            <span><a href={githubUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a></span>
+                            :
+                            null
+                    }
+                    {
+                        linkUrl ?
+                            <a href={linkUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-link" /></a>
+                            :
+                            null
+                    }
+                    {
+                        youtube ?
+                            <a href={youtube} id="link" target="_blank" rel="noreferrer"><i className="fab fa-youtube" /></a>
+                            :
+                            null
+                    }
+                </div>
                 <div className="collection-footer">
                     <span className="description">{description}</span>
                 </div>

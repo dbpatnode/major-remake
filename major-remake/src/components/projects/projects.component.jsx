@@ -19,6 +19,7 @@ const Projects = () => {
                             linkUrl={item.linkUrl}
                             item={item}
                             techStack={item.techStack}
+                            youtube={item.youtube}
                         />
                     })
                 }
