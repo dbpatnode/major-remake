@@ -64,7 +64,7 @@ export default class Resume extends Component {
 
                 <div className="row skill">
 
-                    <div className="skills-header">
+                    <div className="header-column">
                         <h1><span>Skills</span></h1>
                     </div>
 
