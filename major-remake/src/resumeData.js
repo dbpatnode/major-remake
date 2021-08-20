@@ -127,7 +127,7 @@ let resumeData = {
         "imgUrl":"headshot.png",
         // "githubUrl":"",
         "linkUrl":"https://danielpatnode.netlify.app/",
-        "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "cli", "ticketMaster" ]
+        "techStack": ["html", "css", "javaScript", "sqlite", "netlify" ]
       },
       {
         "name":"BrewMaps",
@@ -136,7 +136,7 @@ let resumeData = {
         "githubUrl":"https://github.com/dbpatnode/brewmaps-frontend",
         // "linkUrl":
         "youtube":"https://www.youtube.com/watch?v=B3SEAptSnTM&t=3s", 
-        "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "cli", "ticketMaster" ]
+        "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "reactRouter" ]
       },
       {
         "name":"FavFest",
