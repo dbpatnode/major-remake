@@ -122,34 +122,20 @@ let resumeData = {
     ],
     "portfolio":[
       {
+        "name":"Portfolio V1",
+        "description":"First iteration of my portfolio site showcasing my work as a software developer.",
+        "imgUrl":"headshot.png",
+        "githubUrl":"",
+        "linkUrl":"https://danielpatnode.netlify.app/",
+        "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "cli", "ticketMaster" ]
+      },
+      {
         "name":"BrewMaps",
         "description":"Brewery mapping application allows users to view breweries across the United States, while keeping an active log of their experiences.",
         "imgUrl":"brewmaps.png",
         "githubUrl":"https://github.com/dbpatnode/brewmaps-frontend",
         "linkUrl":"https://www.youtube.com/watch?v=B3SEAptSnTM&t=3s",
-        "techStack": ["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]
-        // [
-        //   {
-        //     "tech": "html"
-        //   }, 
-        //   {
-        //     "tech":"css"
-        //   }, 
-        //   {
-        //     "tech":"ruby"
-        //   }, 
-        //   {
-        //     "tech":"react"
-        //   }, 
-        //   {
-        //     "tech":"bootstrap"
-        //   }, 
-        //   {
-        //     "tech":"fontawesome"
-        //   }, 
-        //   {
-        //     "tech":"hostgator"
-        //   }]
+        "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "cli", "ticketMaster" ]
       },
       {
         "name":"FavFest",
@@ -157,7 +143,7 @@ let resumeData = {
         "imgUrl":"favfest.png",
         "githubUrl":"https://github.com/dbpatnode/favfest",
         "linkUrl":"https://favfest.herokuapp.com/",
-        "techStack": ["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]
+        "techStack": ["html", "css", "ruby","postgresql", "fontawesome", "bootstrap", "heroku" ]
       },
       {
         "name":"Oasis",
@@ -165,7 +151,7 @@ let resumeData = {
         "imgUrl":"Oasis.jpg",
         "githubUrl":"https://github.com/tshlos/oasis",
         "linkUrl":"https://www.youtube.com/watch?v=NBWNe6LE7xw&t=1s",
-        "techStack": ["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]
+        "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "cli", "ticketMaster" ]
       },
       {
         "name":"OHOHOH",
@@ -173,7 +159,7 @@ let resumeData = {
         "imgUrl":"OHOHOH.jpg",
         "githubUrl":"https://github.com/cortezd334/OHOHOH",
         "linkUrl":"https://www.youtube.com/watch?v=iwHu_6Okfxo&t=143s",
-        "techStack": ["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]
+        "techStack": ["html", "css", "ruby","sqlite", "javaScript" ]
       }
     ]
   }

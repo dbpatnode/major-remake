@@ -5,7 +5,6 @@ import './project-item.style.scss';
 
 class CollectionItem extends React.Component {
     stacks = (tech) => {
-        console.log(tech)
         return tech.map(lang => {
             switch (lang) {
                 case 'react':
@@ -100,18 +99,9 @@ class CollectionItem extends React.Component {
                 </div>
                 <div className="bars">
 
-                    <div className="techStack">
-                        {/* {
-                            techStack && techStack.map((item) => {
-                                return ( */}
-                        {console.log(techStack)}
-                        <span>{this.stacks(techStack)}</span>
-                        {/* //         )
-                        //     })
-                        // } */}
-
+                    <div>
+                        <span className="techs">{this.stacks(techStack)}</span>
                     </div>
-
                 </div>
             </div >
         )
