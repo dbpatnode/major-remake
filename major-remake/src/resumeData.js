@@ -126,28 +126,54 @@ let resumeData = {
         "description":"Brewery mapping application allows users to view breweries across the United States, while keeping an active log of their experiences.",
         "imgUrl":"brewmaps.png",
         "githubUrl":"https://github.com/dbpatnode/brewmaps-frontend",
-        "linkUrl":"https://www.youtube.com/watch?v=B3SEAptSnTM&t=3s"
+        "linkUrl":"https://www.youtube.com/watch?v=B3SEAptSnTM&t=3s",
+        "techStack": ["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]
+        // [
+        //   {
+        //     "tech": "html"
+        //   }, 
+        //   {
+        //     "tech":"css"
+        //   }, 
+        //   {
+        //     "tech":"ruby"
+        //   }, 
+        //   {
+        //     "tech":"react"
+        //   }, 
+        //   {
+        //     "tech":"bootstrap"
+        //   }, 
+        //   {
+        //     "tech":"fontawesome"
+        //   }, 
+        //   {
+        //     "tech":"hostgator"
+        //   }]
       },
       {
         "name":"FavFest",
         "description":"Festival jouranling application that gives users the ability to view festivals and musical artists, while keeping a notes on their experiences",
         "imgUrl":"favfest.png",
         "githubUrl":"https://github.com/dbpatnode/favfest",
-        "linkUrl":"https://favfest.herokuapp.com/"
+        "linkUrl":"https://favfest.herokuapp.com/",
+        "techStack": ["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]
       },
       {
         "name":"Oasis",
         "description":"Access point application that allows users to find lesser known rooftop parks and destinations.",  
         "imgUrl":"Oasis.jpg",
         "githubUrl":"https://github.com/tshlos/oasis",
-        "linkUrl":"https://www.youtube.com/watch?v=NBWNe6LE7xw&t=1s"
+        "linkUrl":"https://www.youtube.com/watch?v=NBWNe6LE7xw&t=1s",
+        "techStack": ["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]
       },
       {
         "name":"OHOHOH",
         "description":"Pet adoption application with both admin and user capabilities.",
         "imgUrl":"OHOHOH.jpg",
         "githubUrl":"https://github.com/cortezd334/OHOHOH",
-        "linkUrl":"https://www.youtube.com/watch?v=iwHu_6Okfxo&t=143s"
+        "linkUrl":"https://www.youtube.com/watch?v=iwHu_6Okfxo&t=143s",
+        "techStack": ["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]
       }
     ]
   }
