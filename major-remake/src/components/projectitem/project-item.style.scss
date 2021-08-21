@@ -10,17 +10,18 @@
 
     &:hover {
         & .image {
-        transform: scale(1.1);
-        transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+            transform: scale(1.1);
+            transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
         }
 
         & .collection-footer {
+            cursor: default;
             opacity: 1;
         }
 
         & .name {
+            cursor: default;
             opacity: 0.9;
-            // color: #11ABB0;
         }
     }
 
@@ -41,7 +42,7 @@
         left: 50%;
         margin: 0 auto;
         transform: translate(-50%, -50%);
-        }
+    }
 
     .link-container {
         position: absolute;
