@@ -59,9 +59,17 @@ class CollectionItem extends React.Component {
                     return (
                         <img key={lang} src="https://img.shields.io/badge/-CLI-005571?logo=windows%20terminal&logoColor=white&style=flat" alt={lang} width="50" height="20" />
                     )
-                case 'ticketMaster':
+                case 'googleMaps':
                     return (
-                        <img key={lang} src="https://img.shields.io/badge/-TicketMaster%20API-005571?logo=ticketmaster&logoColor=white&style=flat" alt={lang} width="120" height="20" />
+                        <img key={lang} src="https://img.shields.io/badge/-GoogleMaps%20API-blue?logo=googlemaps&logoColor=white&style=flat" alt={lang} width="120" height="20" />
+                    )
+                case 'mapbox':
+                    return (
+                        <img key={lang} src="https://img.shields.io/badge/-Mapbox%20API-007afc?logo=mapbox&logoColor=white&style=flat" alt={lang} width="100" height="20" />
+                    )
+                case 'openBrewery':
+                    return (
+                        <img key={lang} src="https://img.shields.io/badge/-Open%20Brewery%20DB%20API-ffbc00?logo=homebrew&logoColor=white&style=flat" alt={lang} width="140" height="20" />
                     )
                 case 'reactRouter':
                     return (
