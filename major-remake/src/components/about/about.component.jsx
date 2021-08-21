@@ -7,9 +7,7 @@ export default class About extends Component {
     render() {
 
         return (
-            <section id="about">
-                {/* <div className="row"> */}
-
+            <div id="about">
                 <div className="content-container">
                     <div className="headshot-container">
                         <img className="profile-pic" src={Headshot} alt="Daniel Patnode" />
@@ -20,10 +18,6 @@ export default class About extends Component {
                         <p>
                             {resumeData.aboutme}
                         </p>
-                        {/* <div className="info">
-
-                        <div className="columns contact-details"> */}
-
                         <h2>Contact Details</h2>
                         <p className="address">
                             <span>{resumeData.name}</span>
@@ -34,11 +28,9 @@ export default class About extends Component {
                             <br></br>
                             <span>{resumeData.website}</span>
                         </p>
-                        {/* </div>
-                    </div> */}
                     </div>
                 </div>
-            </section>
+            </div>
         );
     }
 }

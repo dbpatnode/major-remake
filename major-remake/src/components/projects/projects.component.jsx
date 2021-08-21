@@ -1,7 +1,7 @@
 import React from 'react';
 import resumeData from '../../resumeData';
 import './projects.style.scss'
-import ProjectItem from '../projectitem/project-item.component';
+import ProjectItem from '../project-item/project-item.component';
 
 const Projects = () => {
     return (

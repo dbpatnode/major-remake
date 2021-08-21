@@ -1,8 +1,6 @@
 import React from 'react';
 import './project-item.style.scss';
 
-
-
 class CollectionItem extends React.Component {
     stacks = (tech) => {
         return tech.map(lang => {

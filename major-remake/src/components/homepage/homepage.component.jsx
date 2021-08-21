@@ -3,7 +3,6 @@ import './homepage.style.scss';
 import resumeData from '../../resumeData';
 import { Link } from 'react-scroll'
 
-
 const HomePage = () => (
     <div className="homepage">
         <div className="row banner">
