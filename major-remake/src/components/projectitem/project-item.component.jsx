@@ -11,6 +11,10 @@ class CollectionItem extends React.Component {
                     return (
                         <img key={lang} src="https://img.shields.io/badge/-ReactJs-4298B8?logo=react&logoColor=white&style=flat" alt={lang} width="80" height="20" />
                     )
+                case 'sass':
+                    return (
+                        <img key={lang} src="https://img.shields.io/badge/-Sass-ff69b4?logo=sass&logoColor=white&style=flat" alt={lang} width="60" height="20" />
+                    )
                 case 'ruby':
                     return (
                         <img key={lang} src="https://img.shields.io/badge/-Ruby%20on%20Rails-A42E2B?logo=ruby%20on%20rails&logoColor=white&style=flat" alt={lang} width="110" height="20" />

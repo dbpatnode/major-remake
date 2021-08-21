@@ -127,7 +127,7 @@ let resumeData = {
         "imgUrl":"headshot.png",
         // "githubUrl":"",
         "linkUrl":"https://danielpatnode.netlify.app/",
-        "techStack": ["html", "css", "javaScript", "sqlite", "netlify" ]
+        "techStack": ["html", "css", "javaScript", "sass", "netlify" ]
       },
       {
         "name":"BrewMaps",
