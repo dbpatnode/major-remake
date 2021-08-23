@@ -54,7 +54,7 @@ const Resume = () => (
             </div>
         </div>
 
-        <div className="skill">
+        <div className="skill-container">
             <div className="header-column">
                 <h1><span>Skills</span></h1>
             </div>

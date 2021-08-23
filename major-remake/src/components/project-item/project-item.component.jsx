@@ -7,7 +7,7 @@ class CollectionItem extends React.Component {
             switch (lang) {
                 case 'react':
                     return (
-                        <img key={lang} src="https://img.shields.io/badge/-ReactJs-4298B8?logo=react&logoColor=white&style=flat" alt={lang} width="80" height="20" />
+                        <img key={lang} src="https://img.shields.io/badge/-ReactJs-61dbfb?logo=react&logoColor=white&style=flat" alt={lang} width="80" height="20" />
                     )
                 case 'sass':
                     return (
@@ -19,19 +19,19 @@ class CollectionItem extends React.Component {
                     )
                 case 'html':
                     return (
-                        <img key={lang} src="https://img.shields.io/badge/-Html5-A86454?logo=html5&logoColor=white&style=flat" alt={lang} width="70" height="20" />
+                        <img key={lang} src="https://img.shields.io/badge/-Html5-f06529?logo=html5&logoColor=white&style=flat" alt={lang} width="70" height="20" />
                     )
                 case 'css':
                     return (
-                        <img key={lang} src="https://img.shields.io/badge/-CSS3-2E3084?logo=css3&logoColor=white&style=flat" alt={lang} width="60" height="20" />
+                        <img key={lang} src="https://img.shields.io/badge/-CSS3-264de4?logo=css3&logoColor=white&style=flat" alt={lang} width="60" height="20" />
                     )
                 case 'javaScript':
                     return (
-                        <img key={lang} src="https://img.shields.io/badge/-JavaScript-D4AA00?logo=javascript&logoColor=white&style=flat" alt={lang} width="80" height="20" />
+                        <img key={lang} src="https://img.shields.io/badge/-JavaScript-f0db4f?logo=javascript&logoColor=white&style=flat" alt={lang} width="80" height="20" />
                     )
                 case 'bootstrap':
                     return (
-                        <img key={lang} src="https://img.shields.io/badge/-Bootstrap-005571?logo=bootstrap&logoColor=white&style=flat" alt={lang} width="80" height="20" />
+                        <img key={lang} src="https://img.shields.io/badge/-Bootstrap-7952b3?logo=bootstrap&logoColor=white&style=flat" alt={lang} width="80" height="20" />
                     )
                 case 'heroku':
                     return (
@@ -71,7 +71,7 @@ class CollectionItem extends React.Component {
                     )
                 case 'reactRouter':
                     return (
-                        <img key={lang} src="https://img.shields.io/badge/-React%20Router-005571?logo=react%20router&logoColor=white&style=flat" alt={lang} width="100" height="20" />
+                        <img key={lang} src="https://img.shields.io/badge/-React%20Router-d0021b?logo=react%20router&logoColor=white&style=flat" alt={lang} width="100" height="20" />
                     )
                 case 'fontawesome':
                     return (
