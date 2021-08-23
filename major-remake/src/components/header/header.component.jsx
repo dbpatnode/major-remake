@@ -8,14 +8,14 @@ const Header = () => (
             Daniel Patnode
         </NavLink>
         <div className='options'>
-            <NavLink exact to="/resume" className="option">
-                resume
-            </NavLink>
             <NavLink exact to="/projects" className="option">
                 projects
             </NavLink>
             <NavLink exact to="/blogs" className="option">
                 blogs
+            </NavLink>
+            <NavLink exact to="/resume" className="option">
+                resume
             </NavLink>
             <NavLink exact to="/contact" className="option">
                 contact
