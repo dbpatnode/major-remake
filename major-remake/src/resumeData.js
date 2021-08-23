@@ -66,59 +66,38 @@ let resumeData = {
     "skillsDescription":"Languages:",
     "skills":[
       {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
+        "skillname":"CSS SCSS SASS"
       },
       {
         "skillname":"Reactjs"
       },
       {
-        "skillname":"Javascript"
+        "skillname":"HTML5"
       },
       {
-        "skillname":"SCSS/SASS"
+        "skillname":"Javascript"
       },
       {
         "skillname":"JSON"
       },
       {
-        "skillname":"GitHub"
+        "skillname":"Ruby"
+      },
+      {
+        "skillname":"Ruby-on-Rails"
       },
       {
         "skillname":"Git"
       },
       {
-        "skillname":"Ruby"
+        "skillname":"SQL"
       },
       {
-        "skillname":"Ruby on Rails"
+        "skillname":"firebase"
       },
       {
-        "skillname":"Restful APIs"
+        "skillname":"JWT-Authentication"
       },
-      {
-        "skillname":"RPC Protocol"
-      },
-      {
-        "skillname":"MVC pattern"
-      },
-      {
-        "skillname":"PostgreSQL"
-      },
-      {
-        "skillname":"SQLite3"
-      },
-      {
-        "skillname":"Babel"
-      },
-      {
-        "skillname":"Webpack"
-      },
-      {
-        "skillname":"Chai"
-      },      
     ],
     "portfolio":[
       {
