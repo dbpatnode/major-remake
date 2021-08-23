@@ -110,36 +110,23 @@
         top: 0;
         margin: 0;
         padding-right: 24px;
-        background: #313131;
+        background: #11ABB0;
         display: inline-block;
         height: 42px;
         line-height: 42px;
         border-radius: 3px 0 0 3px;
       }
-      
-
-
       .css {
         width: 90%;
-        // -moz-animation: css 2s ease;
-        // -webkit-animation: css 2s ease;
-        
       }
-
       .html5 {
         width: 80%;
-        // -moz-animation: html5 2s ease;
-        // -webkit-animation: html5 2s ease;
       }
       .javascript {
         width: 70%;
-        // -moz-animation: html5 2s ease;
-        // -webkit-animation: html5 2s ease;
       }
       .reactjs {
         width: 90%;
-        // -moz-animation: html5 2s ease;
-        // -webkit-animation: html5 2s ease;
       }
       .json {
         width: 67%;
@@ -162,29 +149,5 @@
       .jwt-authentication {
         width: 30%;
       }
-      
-
-    
-
-
-      // @-moz-keyframes html5 {
-      //   0%   { width: 0px;  }
-      //   100% { width: 80%;  }
-      // }
-
-      // @-webkit-keyframes css {
-      //   0%   { width: 0px;  }
-      //   100% { width: 90%;  }
-      // }
-
-      // @-webkit-keyframes html5 {
-      //   0%   { width: 0px;  }
-      //   100% { width: 80%;  }
-      // }
-      
-      // @-webkit-keyframes jquery {
-      //   0%   { width: 0px;  }
-      //   100% { width: 50%;  }
-      // }
   }
 }
