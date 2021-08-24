@@ -123,7 +123,7 @@ let resumeData = {
         "imgUrl":"favfest.png",
         "githubUrl":"https://github.com/dbpatnode/favfest",
         "linkUrl":"https://favfest.herokuapp.com/",
-        "techStack": ["html", "css", "ruby","postgresql", "fontawesome", "bootstrap", "heroku" ]
+        "techStack": ["html", "sass", "ruby", "postgresql", "fontawesome", "bootstrap", "heroku" ]
       },
       {
         "name":"Oasis",
