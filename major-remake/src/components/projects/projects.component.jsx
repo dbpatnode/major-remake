@@ -9,7 +9,6 @@ const Projects = () => {
             <div className='projects'>
                 {
                     resumeData.portfolio && resumeData.portfolio.map((item) => {
-                        console.log(item.techStack)
                         return <ProjectItem
                             key={item.name}
                             name={item.name}

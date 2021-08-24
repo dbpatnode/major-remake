@@ -1,0 +1,16 @@
+.blogs-container {
+    display: flex;
+    flex-direction: column;
+    // background: linear-gradient(rgba(0, 0, 0, 0.5),
+    // rgba(0, 0, 0, 0.5)), url(dark-clouds.jpg) no-repeat top center;
+    // background-size: cover !important;
+    // -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+
+    .blogs{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

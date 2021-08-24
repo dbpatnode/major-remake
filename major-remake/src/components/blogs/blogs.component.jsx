@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BlogItem from '../blog-item/blog-item.component';
 import './blogs.style.scss';
 
 export default class Blogs extends Component {
@@ -14,11 +15,26 @@ export default class Blogs extends Component {
     }
 
     render() {
+        const { blogs } = this.state
         return (
-            <div>
-                {console.log(this.state.blogs)}
+            <div className="blogs-container">
+                <div className="blogs">
+
+                    {/* {console.log(blogs)} */}
+                    {
+                        blogs.items && blogs.items.slice(0, 7).map((item) => {
+                            console.log(item)
+                            return <BlogItem
+                                title={item.title}
+                                link={item.link}
+                                content={item.content}
+                                description={item.description}
+                                thumbnail={item.thumbnail}
+                            />
+                        }
+                        )}
+                </div>
             </div>
         )
     }
 }
-
