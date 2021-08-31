@@ -7,7 +7,7 @@ export default class Blogs extends Component {
     render() {
         return (
             <div className="blogs-container">
-                <ComingSoon page={"CONTACT PAGE"} />
+                <ComingSoon page={"CONTACT"} />
             </div>
         )
     }

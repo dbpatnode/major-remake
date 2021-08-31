@@ -32,7 +32,7 @@ export default class Blogs extends Component {
                         }
                         )}
                 </div> */}
-                <ComingSoon page={"BLOGS"} />
+                <ComingSoon page={"BLOG"} />
             </div>
         )
     }
