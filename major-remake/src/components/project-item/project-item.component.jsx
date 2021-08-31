@@ -35,11 +35,15 @@ class CollectionItem extends React.Component {
                     )
                 case 'heroku':
                     return (
-                        <img key={lang} src="https://img.shields.io/static/v1?label=Hosted&message=Heroku&color=005571" alt={lang} width="100" height="20" />
+                        <img key={lang} src="https://img.shields.io/static/v1?label=Hosted&message=Heroku&color=6762A6" alt={lang} width="100" height="20" />
                     )
                 case 'netlify':
                     return (
                         <img key={lang} src="https://img.shields.io/static/v1?label=Hosted&message=Netlify&color=005571" alt={lang} width="90" height="20" />
+                    )
+                case 'firebase':
+                    return (
+                        <img key={lang} src="https://img.shields.io/static/v1?label=Hosted&message=firebase&color=FFA611" alt={lang} width="90" height="20" />
                     )
                 case 'postgresql':
                     return (
