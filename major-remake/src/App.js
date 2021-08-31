@@ -6,6 +6,7 @@ import LandingPage from '../src/components/landingpage/landingpage.component';
 import Resume from '../src/components/resume/resume.component';
 import Projects from '../src/components/projects/projects.component';
 import Blogs from '../src/components/blogs/blogs.component';
+import Contact from '../src/components/contact/contact.component';
 import Footer from '../src/components/footer/footer.component';
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ render() {
           <Route path='/resume' component={Resume}/> 
           <Route path='/projects' component={Projects} />
           <Route path='/blogs' component={Blogs}/>
+          <Route path='/contact' component={Contact}/>
           
         </Switch>
         <Footer/>    
