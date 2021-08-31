@@ -43,7 +43,7 @@ class CollectionItem extends React.Component {
                     )
                 case 'firebase':
                     return (
-                        <img key={lang} src="https://img.shields.io/static/v1?label=Hosted&message=firebase&color=FFA611" alt={lang} width="90" height="20" />
+                        <img key={lang} src="https://img.shields.io/static/v1?label=Hosted&message=Firebase&color=FFA611" alt={lang} width="90" height="20" />
                     )
                 case 'postgresql':
                     return (
