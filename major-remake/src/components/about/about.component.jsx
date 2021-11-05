@@ -10,7 +10,8 @@ export default class About extends Component {
             <div id="about">
                 <div className="content-container">
                     <div className="headshot-container">
-                        <img className="profile-pic" src={Headshot} alt="Daniel Patnode" />
+                        <div className="profile-pic"></div>
+                        {/* <img className="profile-pic" src={Headshot} alt="Daniel Patnode" /> */}
                     </div>
 
                     <div className="information-container">

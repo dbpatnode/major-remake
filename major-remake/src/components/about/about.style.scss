@@ -11,25 +11,51 @@
     overflow: hidden;
 
     .content-container{
-        display: grid;
-        grid-template-columns: 200px 1fr;
-        grid-template-rows: 60px 1fr 60px;
-        grid-column-gap: 16px;
-        grid-row-gap: 16px;
+        // display: grid;
+        // grid-template-columns: 200px 1fr;
+        // grid-template-rows: 60px 1fr 60px;
+        // grid-column-gap: 16px;
+        // grid-row-gap: 16px;
+        display: flex;
+        width: 83%;
+        margin: 0 auto; 
 
         .headshot-container {
-            height: 400px;
-            width: 100%;
-            grid-area: 2 / 3/ 4 / 1;
-            margin-top: 80px;
-            padding-left: 100px;
+            width:50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // height: 400px;
+            // width: 100%;
+            // grid-area: 2 / 3/ 4 / 1;
+            // margin-top: 80px;
+            // padding-left: 100px;
+
+            .profile-pic {
+                // position: relative;
+                // width: 200px;
+                // height: 300px;
+                // border-radius: 5%;
+                // background-color: pink
+
+                position: relative;
+                width: 85%;
+                height: 85%;
+                border-radius: 5%;
+                background-color: pink;
+                background-image: url(headshot.png);
+                background-position: 25% 27%;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
         }
 
         .information-container {
-            grid-area: 2 / 6 / 3 / 6;
-            padding-top: 60px;
-            padding-right: 60px;
-            padding-left: 100px;
+            width: 50%;
+            // grid-area: 2 / 6 / 3 / 6;
+            // padding-top: 60px;
+            // padding-right: 60px;
+            // padding-left: 100px;
         }
     }
 
@@ -45,12 +71,7 @@
         color: #7A7A7A;
     }
 
-    .profile-pic {
-        position: relative;
-        width: 200px;
-        height: 300px;
-        border-radius: 5%;
-    }
+
 
     .contact-details {
         width: 41.66667%; 
