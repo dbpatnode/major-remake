@@ -1,21 +1,17 @@
 #about {
-    padding-top: 96px;
+    // padding-top: 96px;
+    padding: 200px 0px;
     position: relative;
-    max-height: 400px;
-    min-height: 100vh;
+    // max-height: 400px;
+    // min-height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 1),
     rgba(0, 0, 0, 0.5)), url(dark-pattern.jpg) no-repeat top center;
-    background-size: cover !important;
-    -webkit-background-size: cover !important;
+    background-size: cover;
+    -webkit-background-size: cover;
     overflow: hidden;
 
     .content-container{
-        // display: grid;
-        // grid-template-columns: 200px 1fr;
-        // grid-template-rows: 60px 1fr 60px;
-        // grid-column-gap: 16px;
-        // grid-row-gap: 16px;
         display: flex;
         width: 83%;
         margin: 0 auto; 
@@ -25,19 +21,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            // height: 400px;
-            // width: 100%;
-            // grid-area: 2 / 3/ 4 / 1;
-            // margin-top: 80px;
-            // padding-left: 100px;
 
             .profile-pic {
-                // position: relative;
-                // width: 200px;
-                // height: 300px;
-                // border-radius: 5%;
-                // background-color: pink
-
                 position: relative;
                 width: 85%;
                 height: 85%;
@@ -52,12 +37,34 @@
 
         .information-container {
             width: 50%;
-            // grid-area: 2 / 6 / 3 / 6;
-            // padding-top: 60px;
-            // padding-right: 60px;
-            // padding-left: 100px;
         }
     }
+
+
+
+    @media only screen and (min-width: 1300px) and (max-width: 100000000000000000000px) {
+        .content-container{
+            width: 59%;
+        }
+      }
+ 
+      @media only screen and (max-width: 531px) {
+            .content-container{
+                flex-direction: column;
+
+                .headshot-container{
+                    width: 100% ;
+
+                    .profile-pic{
+                        height: 65vh;
+                        width: 95vw;
+                    }
+                } 
+                .information-container{
+                    width: 100% ;
+                }
+            }
+      }
 
 
     h2 {
@@ -99,5 +106,12 @@
     i {
         margin-right: 15px;
         font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 531px) {
+    #about {
+        padding: 60px 0px 40px 0px;
     }
 }

@@ -7,9 +7,9 @@ const HomePage = () => (
     <div className="homepage">
         <div className="row banner">
             <div className="banner-text">
-                <div className="typewriter">
+                {/* <div className="typewriter">
                     <h1 className="responsive-headline">Hi! I'm {resumeData.name}.</h1>
-                </div>
+                </div> */}
                 <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>A {resumeData.role} located in {resumeData.location}. {resumeData.roleDescription}</h3>
                 <hr />
                 <ul className="social">
@@ -27,11 +27,11 @@ const HomePage = () => (
             </div>
         </div>
 
-        <ul>
-            <p className="scrolldown">
-                <li><Link to="about" spy={true} smooth={true}><i className="icon-down-circle"></i></Link></li>
-            </p>
-        </ul>
+        <div className="scrolldown">
+            <div>
+                <Link to="about" spy={true} smooth={true}><i className="icon-down-circle"></i></Link>
+            </div>
+        </div>
     </div >
 )
 

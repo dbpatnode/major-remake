@@ -1,22 +1,27 @@
 
 .homepage {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
    position: relative;
-   height: 800px;
-   min-height: 100vh;
+   // height: 800px;
+   min-height: 90vh;
    width: 100%;
    background: linear-gradient(rgba(0, 0, 0, 0.5),
    rgba(0, 0, 0, 0.5)), url(homepage-background.jpg) no-repeat top center;
-   background-size: cover !important;
-   -webkit-background-size: cover !important;
+   background-size: cover;
+   -webkit-background-size: cover;
    text-align: center;
    overflow: hidden;
 
    /* text and links*/
    .banner {
-      display: inline-block;
-      vertical-align: middle;
-      margin: 15% 50px 20px 50px;
+      flex: 0 1 auto; //check this
+      display: flex;
+      align-items: center;
       width: 85%;
+      height: 74vh;
       padding-bottom: 30px;
       text-align: center;
    }
@@ -54,7 +59,7 @@
       letter-spacing: .15em; /* Adjust as needed */
       animation: 
          typing 3.5s steps(40, end),
-         blink-caret .75s step-end infinite;
+         blink-caret .75s step-end;
    }  
 
    /* The typing effect */
@@ -92,14 +97,16 @@
    }
 
    .scrolldown  { 
+      flex: 1 1 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+     
+  
       a {
       cursor: pointer;
-      position: absolute;
-      bottom: 15vh;
-      left: 50%;
-      margin-left: -29px;
       color: #fff;
-      display: block;
       height: 42px;
       width: 42px;
       font-size: 42px;
