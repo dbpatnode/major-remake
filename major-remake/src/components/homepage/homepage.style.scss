@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+
+
 
 .homepage {
    display: flex;
@@ -15,6 +19,25 @@
    text-align: center;
    overflow: hidden;
 
+   a {
+      cursor: pointer;
+      color: #fff;
+      height: 42px;
+      width: 42px;
+      font-size: 42px;
+      line-height: 42px;
+      color: #fff;
+      border-radius: 100%;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+   
+         &:hover { 
+            color: #11ABB0;
+         } 
+      }
+
    /* text and links*/
    .banner {
       flex: 0 1 auto; //check this
@@ -27,14 +50,12 @@
    }
    
    .banner-text { 
-      width: 100%; 
-      h1 {
-         font: 90px/1.1em 'opensans-bold', sans-serif;
-         color: #fff;
-         letter-spacing: -2px;
-         margin: 0 auto 18px auto;
-         text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
-      }
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 85%; 
+      margin: 0 auto;
+
       h3 {
          font: 18px/1.9em 'librebaskerville-regular', serif;
          color: #A8A8A8;
@@ -49,33 +70,15 @@
          border-color: rgba(33, 33, 33, 0.1);
       }
    }
-   
-   /* typing animation */
-   .typewriter h1 {
-      overflow: hidden; /* Ensures the content is not revealed until the animation */
-      border-right: .15em solid white; /* The typwriter cursor */
-      white-space: nowrap; /* Keeps the content on a single line */
-      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-      letter-spacing: .15em; /* Adjust as needed */
-      animation: 
-         typing 3.5s steps(40, end),
-         blink-caret .75s step-end;
-   }  
 
-   /* The typing effect */
-   @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-   }
-   
-   /* The typewriter cursor effect */
-   @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: white; }
+   .flex-column-wrapper {
+      display: flex;
+      justify-content: center;
    }
 
-   /* social links */
-   .social {
+   .social {    
+      display: flex;
+      justify-content: center;
       margin: 24px 0;
       padding: 0;
       font-size: 30px;
@@ -85,14 +88,6 @@
          display: inline-block;
          margin: 0 15px;
          padding: 0;
-         
-         a { 
-            color: #fff; 
-            
-            &:hover { 
-               color: #11ABB0; 
-            }
-         }
       }
    }
 
@@ -102,25 +97,120 @@
       align-items: center;
       justify-content: center;
       width: 100%;
-     
-  
-      a {
-      cursor: pointer;
-      color: #fff;
-      height: 42px;
-      width: 42px;
-      font-size: 42px;
-      line-height: 42px;
-      color: #fff;
-      border-radius: 100%;
-      -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      transition: all .3s ease-in-out;
-
-         &:hover { 
-            color: #11ABB0;
-         } 
-      }
    }
+}
+
+
+/* defines the animation */
+@-webkit-keyframes fadeInUp {
+   from {
+     opacity: 0;
+     transform: translate3d(0, 100%, 0);
+   }
+   to {
+     opacity: 1;
+     transform: none;
+   }
+ }
+ @keyframes fadeInUp {
+   from {
+     opacity: 0;
+     transform: translate3d(0, 100%, 0);
+   }
+   to {
+     opacity: 1;
+     transform: none;
+   }
+ }
+ p {
+   opacity: 0;
+   -webkit-animation: fadeInUp 1s ease-in-out 0s forwards;
+           animation: fadeInUp 1s ease-in-out 0s forwards;
+ }
+ p.first {
+   -webkit-animation-delay: .5s;
+           animation-delay: .5s;
+
+      h1 {
+         font-family: Raleway;
+         font-weight: 900;
+         font-size: 8vw;
+         color: #d1d1d1;
+         margin: 0;
+      }
+ }
+ p.second {
+   -webkit-animation-delay: 2s;
+           animation-delay: 2s;
+ }
+
+ p.third {
+   -webkit-animation-delay: 3s;
+           animation-delay: 3s;
+ }
+
+
+//  bounce animation
+.swing {
+   transition:all 0.3s ease;
+}
+
+@-webkit-keyframes swing {
+   15% {
+       -webkit-transform: translateY(5px);
+       transform: translateY(5px);
+   }
+   30% {
+       -webkit-transform: translateY(-5px);
+       transform: translateY(-5px);
+   }
+   50% {
+       -webkit-transform: translateY(3px);
+       transform: translateY(3px);
+   }
+   65% {
+       -webkit-transform: translateY(-3px);
+       transform: translateY(-3px);
+   }
+   80% {
+       -webkit-transform: translateY(2px);
+       transform: translateY(2px);
+   }
+   100% {
+       -webkit-transform: translateY(0);
+       transform: translateY(0);
+   }
+}
+@keyframes swing {
+   15% {
+       -webkit-transform: translateY(5px);
+       transform: translateY(5px);
+   }
+   30% {
+       -webkit-transform: translateY(-5px);
+       transform: translateY(-5px);
+   }
+   50% {
+       -webkit-transform: translateY(3px);
+       transform: translateY(3px);
+   }
+   65% {
+       -webkit-transform: translateY(-3px);
+       transform: translateY(-3px);
+   }
+   80% {
+       -webkit-transform: translateY(2px);
+       transform: translateY(2px);
+   }
+   100% {
+       -webkit-transform: translateY(0);
+       transform: translateY(0);
+   }
+}
+.swing:hover
+{
+   -webkit-animation: swing 1s ease;
+   animation: swing 1s ease;
+   -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
 }

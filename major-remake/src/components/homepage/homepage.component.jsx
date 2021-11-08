@@ -7,29 +7,40 @@ const HomePage = () => (
     <div className="homepage">
         <div className="row banner">
             <div className="banner-text">
-                {/* <div className="typewriter">
-                    <h1 className="responsive-headline">Hi! I'm {resumeData.name}.</h1>
-                </div> */}
-                <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>A {resumeData.role} located in {resumeData.location}. {resumeData.roleDescription}</h3>
-                <hr />
-                <ul className="social">
-                    {
-                        resumeData.socialLinks.map(item => {
-                            return (
-                                <li key={item.name}>
-                                    <a href={item.url} target="_blank" rel="noreferrer"><i className={item.className}> </i></a>
-                                </li>
-                            )
-                        }
-                        )
-                    }
-                </ul>
+                <div className="flex-column-wrapper">
+                    <p className="first">
+                        <h1 data-splitting>{resumeData.name}</h1>
+                    </p>
+                </div>
+
+                <div className="flex-column-wrapper">
+                    <p className="second">
+                        <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>A {resumeData.role} located in {resumeData.location}. {resumeData.roleDescription}</h3>
+                        <hr />
+                        <ul className="social">
+                            {
+                                resumeData.socialLinks.map(item => {
+                                    return (
+                                        <div className="swing">
+                                            <li key={item.name}>
+                                                <a href={item.url} target="_blank" rel="noreferrer"><i className={item.className}> </i></a>
+                                            </li>
+                                        </div>
+                                    )
+                                }
+                                )
+                            }
+                        </ul>
+                    </p>
+                </div>
             </div>
         </div>
 
         <div className="scrolldown">
-            <div>
-                <Link to="about" spy={true} smooth={true}><i className="icon-down-circle"></i></Link>
+            <div className="swing">
+                <p className="third">
+                    <Link to="about" spy={true} smooth={true}><i className="icon-down-circle"></i></Link>
+                </p>
             </div>
         </div>
     </div >
