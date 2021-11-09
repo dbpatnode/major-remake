@@ -4,17 +4,15 @@
     flex-direction: column;
     // padding: 20px;
     background: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(dark-grey.jpg) no-repeat top center;
-    background-size: cover !important;
-    -webkit-background-size: cover !important;
+    rgba(0, 0, 0, 0.5)), url(/images/dark-grey.jpg) no-repeat top center;
+    background-size: cover ;
+    -webkit-background-size: cover;
     text-align: center;
     overflow: hidden;
 
 
     .blogs{
         display: flex;
-        // display: inline-flex;
-        // flex-wrap: wrap;
         justify-content: space-between;
         flex-wrap: wrap;
     }

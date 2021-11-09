@@ -17,18 +17,19 @@ export default class About extends Component {
                     <div className="information-container">
                         <h2>About Me</h2>
                         <p>
-                            {resumeData.aboutme}
+                            {resumeData.aboutme} Feel free to reach out with any inquiries <a target="_blank" rel="noopener noreferrer" href="/contact">here</a>.
+
                         </p>
-                        <h2>Contact Details</h2>
-                        <p className="address">
-                            <span>{resumeData.name}</span>
+                        {/* <h2>Contact Details</h2> */}
+                        {/* <p className="address"> */}
+                        {/* <span>{resumeData.name}</span>
                             <br></br>
                             <span>
                                 {resumeData.address}
                             </span>
-                            <br></br>
-                            <span>{resumeData.website}</span>
-                        </p>
+                            <br></br> */}
+                        {/* <a target="_blank" rel="noopener noreferrer" href="/contact">Contact Me</a> */}
+                        {/* </p> */}
                     </div>
                 </div>
             </div>

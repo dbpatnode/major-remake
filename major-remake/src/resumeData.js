@@ -136,7 +136,7 @@ let resumeData = {
       {
         "name":"Oasis",
         "description":"Access point application that allows users to find lesser known rooftop parks and destinations.",  
-        "imgUrl":"Oasis.jpg",
+        "imgUrl":"oasis.png",
         "githubUrl":"https://github.com/tshlos/oasis",
         "youtube":"https://www.youtube.com/watch?v=NBWNe6LE7xw&t=1s",
         "techStack": ["html", "css", "javaScript", "react", "reactRouter", "ruby", "googleMaps", "sqlite"]

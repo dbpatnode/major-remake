@@ -15,7 +15,7 @@ const HomePage = () => (
 
                 <div className="flex-column-wrapper">
                     <p className="second">
-                        <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>A {resumeData.role} located in {resumeData.location}. {resumeData.roleDescription}</h3>
+                        <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}> {resumeData.role} located in {resumeData.location}. {resumeData.roleDescription}</h3>
                         <hr />
                         <ul className="social">
                             {
