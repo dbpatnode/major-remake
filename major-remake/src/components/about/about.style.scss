@@ -3,12 +3,14 @@
     position: relative;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.5)), url(dark-pattern.jpg) no-repeat top center;
+    rgba(0, 0, 0, 0.5)), url(/images/dark-landscape.png) no-repeat top center;
     background-size: cover;
     -webkit-background-size: cover;
     overflow: hidden;
 
     .content-container{
+        background-color: rgba(255, 255, 255, .15) !important;
+        backdrop-filter: blur(5px) !important;
         display: flex;
         width: 83%;
         margin: 0 auto; 
@@ -25,7 +27,7 @@
                 height: 85%;
                 border-radius: 5%;
                 background-color: pink;
-                background-image: url(headshot.png);
+                background-image: url(/images/headshot.png);
                 background-position: 25% 27%;
                 background-size: cover;
                 background-repeat: no-repeat;
