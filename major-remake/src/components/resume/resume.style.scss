@@ -3,7 +3,7 @@
     margin: 0 auto;
     width: 100%;
     background: #fff;
-    padding: 90px 0px;
+    padding:70px 0px;
     overflow: hidden;
 
     .resume-section {
@@ -13,6 +13,7 @@
     }
     
     .header-column {
+      padding-top: 20px;
       display: flex;
       justify-content: center;
       width: 50%;
@@ -46,100 +47,176 @@
       margin-right: 5%;
     }
 
-    .info {
-        font: 16px/24px 'librebaskerville-italic', serif;
-        color: #6E7881;
-        margin-bottom: 18px;
-        margin-top: 9px;
-
-        span {
-            margin-right: 5px;
-            margin-left: 5px;
-        }
-    }
     
-    .date {
+// Work Section
+  .work {
+      margin-top: 60px;
+      .resume-bullet-points {
+        list-style: none;
+        padding: 0 20px;
+
+        li {
+          line-height: 24px;
+          font-size: 16px;
+        }
+
+        li::before {
+          content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: #10aaaf; /* Change the color */
+          font-weight: bold; /* If you want it to be bold */
+          font-size: 24px;
+          display: inline-block; /* Needed to add space between the bullet and the text */
+          width: 1em; /* Also needed for space (tweak if needed) */
+          margin-left: -1em; /* Also needed for space (tweak if needed) */
+        }
+      }
+      .date {
         font: 15px/24px 'opensans-regular', sans-serif;
         margin-top: 6px;
     }
 
-    .skills {
-      margin-top: 60px;
-      .bars {
-        width: 95%;
-        float: left;
-        padding: 0;
-        text-align: left;
+    .info {
+      font: 16px/24px 'librebaskerville-italic', serif;
+      color: #6E7881;
+      margin-bottom: 18px;
+      margin-top: 9px;
 
-        li {
-          position: relative;
-          margin-bottom: 60px;
-          background: #ccc;
+      span {
+          margin-right: 5px;
+          margin-left: 5px;
+      }
+    }
+  }
+
+// Skills section 
+  .skills {
+    margin-top: 60px;
+    .bars {
+      padding: 18px 0px;
+      width: 95%;
+      float: left;
+
+      text-align: left;
+
+      li {
+        position: relative;
+        margin-bottom: 60px;
+        background: #ccc;
+        height: 42px;
+        border-radius: 3px;
+        
+        .bar-expand {
+          position: absolute;
+          left: 0;
+          top: 0;
+          margin: 0;
+          padding-right: 24px;
+          background: #287f82;
+          display: inline-block;
           height: 42px;
-          border-radius: 3px;
-          
-          .bar-expand {
-            position: absolute;
-            left: 0;
-            top: 0;
-            margin: 0;
-            padding-right: 24px;
-            background: #287f82;
-            display: inline-block;
-            height: 42px;
-            line-height: 42px;
-            border-radius: 3px 0 0 3px;
+          line-height: 42px;
+          border-radius: 3px 0 0 3px;
+        }
+
+          em {
+            font: 15px 'opensans-bold', sans-serif;
+            color: #313131;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: normal;
+            position: relative;
+            top: -36px;
           }
+      }
 
-            em {
-              font: 15px 'opensans-bold', sans-serif;
-              color: #313131;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              font-weight: normal;
-              position: relative;
-              top: -36px;
-            }
-        }
+      .skills-list {
+        list-style: none;
+        margin-top: 40px;
+        padding: 12px 20px;
+      }
 
-        .skills-list {
-          list-style: none;
-          margin-top: 40px;
-        }
+      .css {
+        width: 90%;
+      }
+      .html5 {
+        width: 80%;
+      }
+      .javascript {
+        width: 70%;
+      }
+      .reactjs {
+        width: 90%;
+      }
+      .json {
+        width: 67%;
+      }
+      .git {
+        width: 56%;
+      }
+      .ruby {
+        width: 60%;
+      }
+      .ruby-on-rails {
+        width: 60%;
+      }
+      .sql {
+        width: 50%;
+      }
+      .firebase {
+        width: 50%;
+      }
+      .jwt-authentication {
+        width: 30%;
+      }
+    }
+  }
+}
 
-        .css {
-          width: 90%;
+
+@media only screen and (max-width: 531px) {
+  #resume {
+    padding: 45px 0px;
+    .resume-section {
+      width:100vw;
+      flex-direction: column;
+    }
+    
+    .header-column {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .content-column {
+      width: 100%;
+      padding: 0 10px;
+
+      .skills {
+        padding: 0;
+        margin-top: 30px;
+
+        .header-column {
+          padding-bottom: 30px;
         }
-        .html5 {
-          width: 80%;
-        }
-        .javascript {
-          width: 70%;
-        }
-        .reactjs {
-          width: 90%;
-        }
-        .json {
-          width: 67%;
-        }
-        .git {
-          width: 56%;
-        }
-        .ruby {
-          width: 60%;
-        }
-        .ruby-on-rails {
-          width: 60%;
-        }
-        .sql {
-          width: 50%;
-        }
-        .firebase {
-          width: 50%;
-        }
-        .jwt-authentication {
-          width: 30%;
+        .bars {
+          margin: 0 auto;
         }
       }
+    }
+
+    .skills-list {
+      padding: 12px 20px;
+    }
+
+    .resume-bullet-points {
+      padding: 0 32px;
+        li {
+          line-height: 24px;
+        }
+    }
+
+
+    .work {
+      margin-top: 30px;
+    }
   }
 }
