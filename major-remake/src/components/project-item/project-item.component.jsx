@@ -115,19 +115,25 @@ class ProjectItem extends React.Component {
                             <div className="link-container">
                                 {
                                     githubUrl ?
-                                        <span><a href={githubUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a></span>
+                                        <div className="swing">
+                                            <span><a href={githubUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a></span>
+                                        </div>
                                         :
                                         null
                                 }
                                 {
                                     linkUrl ?
-                                        <a href={linkUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-link" /></a>
+                                        <div className="swing">
+                                            <a href={linkUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-link" /></a>
+                                        </div>
                                         :
                                         null
                                 }
                                 {
                                     youtube ?
-                                        <a href={youtube} id="link" target="_blank" rel="noreferrer"><i className="fab fa-youtube" /></a>
+                                        <div className="swing">
+                                            <a href={youtube} id="link" target="_blank" rel="noreferrer"><i className="fab fa-youtube" /></a>
+                                        </div>
                                         :
                                         null
                                 }

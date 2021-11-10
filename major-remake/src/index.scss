@@ -33,7 +33,11 @@ code {
 }
 
 
-
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 //  bounce animation
 .swing {
   transition:all 0.3s ease;

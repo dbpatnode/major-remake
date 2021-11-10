@@ -46,12 +46,19 @@
         margin-top: 60px;
     }
 
+
     .card-top {
         padding: 10px 25px;
         margin: 0 auto;
         background-color: rgba(255, 255, 255, 0.883) !important;
         backdrop-filter: blur(5px) !important;
         border-radius: 5px;
+
+        .link-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
     }
 
     .name {
