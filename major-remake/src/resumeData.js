@@ -131,7 +131,7 @@ let resumeData = {
         "imgUrl":"favfest.png",
         "githubUrl":"https://github.com/dbpatnode/favfest",
         "linkUrl":"https://favfest.herokuapp.com/",
-        "techStack": ["html", "sass", "ruby", "postgresql", "fontawesome", "bootstrap", "heroku" ]
+        "techStack": ["html", "sass", "ruby", "postgresql", "heroku" ]
       },
       {
         "name":"Oasis",
@@ -139,7 +139,7 @@ let resumeData = {
         "imgUrl":"oasis.png",
         "githubUrl":"https://github.com/tshlos/oasis",
         "youtube":"https://www.youtube.com/watch?v=NBWNe6LE7xw&t=1s",
-        "techStack": ["html", "css", "javaScript", "react", "reactRouter", "ruby", "googleMaps", "sqlite"]
+        "techStack": ["react", "reactRouter", "ruby", "googleMaps", "sqlite"]
       },
       {
         "name":"OHOHOH",

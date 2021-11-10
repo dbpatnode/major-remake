@@ -140,7 +140,7 @@ class ProjectItem extends React.Component {
 
                     </div>
                 </div >
-                <div>
+                <div className="techs-wrapper">
                     <span className="techs">{this.stacks(techStack)}</span>
                 </div>
             </div>
