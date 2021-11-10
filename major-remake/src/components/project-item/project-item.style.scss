@@ -113,7 +113,7 @@
     }
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1200px) {
     .project-item-wrapper {
     display: flex;
     flex-direction: column;
@@ -121,12 +121,17 @@
 
     .image {
         margin-top: 20px !important;
+        min-width: 200px !important;
         width: 100% !important;
         height: 60vh !important;
     }
 
     .collection-footer {
         opacity: 1 !important;
+    }
+    .card-top{
+        padding: 0 !important;
+        max-width: 100%;
     }
 }
 }
