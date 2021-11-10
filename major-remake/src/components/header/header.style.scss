@@ -170,7 +170,7 @@
             padding: 0px 25px 0px 25px;
             color: white;
             &:hover {
-                color: #F0672B;
+                color: #11ABB0;
             }
         }
 
@@ -178,7 +178,7 @@
             color: white!important;
         }
         .nav-active {
-            color:#F0672B !important;
+            color:#11ABB0 !important;
         }
     }
 
@@ -212,7 +212,7 @@
         bottom:-5px;
         height:2px;
         width:0%;
-        background:#F0672B;
+        background:#0e8286;
         transition:all 300ms ease-in-out;
     }
 
@@ -247,216 +247,4 @@
             display: none !important;
         }
     }
-/////////////
-// laptops //
-/////////////
-
-//     @media screen and (max-width:1440px) {
-//         .navigation.active {
-//             width: 93%
-//         }
-// }
-
-/////////////////////
-// large monitors //
-////////////////////
-
-        // @media screen and (min-width:1441px) {
-        //     .navigation {
-        //         right: 77px
-        //     }
-        //     .navigation.active {
-        //         width: 92%;
-        //     }
-
-        //     .inner-logo-container {
-        //     width: 96%;
-        //     }
-        // }
-
-/////////////////
-//larger phones//
-/////////////////
-
-    // @media screen and (max-width:480px) {
-    //     .navigation {
-    //         right: -5px
-    //     }
-
-    //     .navigation.active {
-    //         width: 100%;
-    //         position: fixed
-    //     }
-    //     .nav-options {
-    //         display: none;
-    //     }
-
-    //     .inner-left-nav-options {
-    //         li {
-    //             padding: 560px 25px 0px 40px;
-    //         }
-    //     }
-
-    //     .mobile-lower-links {
-    //         margin-top: 100%
-    //     }
-    // }
-
-///////////
-// pixel // 
-///////////
-
-    // @media screen and (max-width:480px) {
-    //     .navigation .links {
-    //         top:45%; // change top position to move inner links up and down
-    //     }   
-    //     .logo {
-    //         margin-left: 175px;
-    //     }
-
-    //     .navigation .links a {
-    //         font-size:50px;
-    //     }
-
-    //     .inner-logo-container {
-    //         width: 78%;
-            
-    //     }
-
-    //     .inner-left-nav-options {
-    //         li {
-    //             padding: 570px 10px 0px 45px;
-    //         }
-    //     }
-
-    //     .navigation.active {
-    //         height: 110vh;
-    //     }
-    // }
-
-////////////////
-// pixel 2 xl //
-////////////////
-
-// @media screen and (max-height:823px) {
-//     .inner-left-nav-options {
-//         li {
-//             padding: 640px 10px 0px 45px;
-//         }
-//     }
-// }
-
-//////////////////
-// iphone 6,7,8 //
-//////////////////
-    // @media screen and (max-width:375px) {
-    //     .logo {
-    //         margin-left: 150px
-    //     }
-    
-    //     .navigation .links {
-    //         top:60%; // change top position to move inner links up and down
-    //     }
-    
-    //     .inner-logo-container {
-    //         width: 78%;
-    //     }
-    
-    //     .navigation .links {
-    //         top:45%; // change top position to move inner links up and down
-    //     }
-    
-    //     .navigation .links a {
-    //         font-size:37px;
-    //     }
-    
-    //     .navigation.active {
-    //         height: 110vh;
-    //     }
-
-    //     .inner-left-nav-options {
-    //         li {
-    //             padding: 420px 10px 0px 35px;
-    //         }
-    //     }
-    // }
-
-//////////////
-// iphone x //
-//////////////
-    // @media screen and (max-width:812px) {
-    //     .inner-left-nav-options {
-    //         li {
-    //             padding: 520px 10px 0px 35px;
-    //         }
-    //     }
-    // }
-
-
-////////////////////////
-// Galaxy x5 & Moto G4//
-////////////////////////
-
-// @media screen and (max-width:360px) {
-//     .logo {
-//         margin-left: 130px
-//     }
-
-//     .navigation .links {
-//         top:60%; // change top position to move inner links up and down
-//     }
-
-//     .inner-logo-container {
-//         width: 78%;
-//     }
-
-//     .navigation .links {
-//         top:44%; // change top position to move inner links up and down
-//     }
-
-//     .navigation .links a {
-//         font-size:35px;
-//     }
-
-//     .navigation.active {
-//         height: 110vh;
-//     }
-
-//     .inner-left-nav-options {
-//         li {
-//             padding: 475px 10px 0px 28px;
-//         }
-//     }
-// }
-
-//////////////////
-// iphone 5/SE //
-/////////////////
-// @media screen and (max-width:320px) {
-//     .logo {
-//         margin-left: 90px
-//     }
-
-//     .inner-logo-container {
-//         width: 77%;
-//     }
-
-//     .navigation .links {
-//         top:42%; // change top position to move inner links up and down
-//     }
-    
-//     .navigation .links a {
-//         font-size:25px;
-//     }
-
-//     .navigation.active {
-//         height: 117vh;
-//     }
-
-//     .inner-left-nav-options {
-//         li {
-//             padding: 420px 10px 0px 17px;
-//         }
-//     }
-// }
 }
