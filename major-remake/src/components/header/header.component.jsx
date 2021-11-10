@@ -10,6 +10,13 @@ function Header() {
         setActive(!isActive);
     };
 
+    const css = `
+        .web-options {
+            display: flex;
+            gap: 60px;
+        }
+    `
+
     return (
         <nav className="header">
 
@@ -22,19 +29,28 @@ function Header() {
 
             <div className='options'>
                 <div className="right-side-wrap">
-                    <div className="web-options">
-                        <NavLink exact to="/projects" className="option">
-                            projects
-                        </NavLink>
-                        <NavLink to="/blogs" className="option">
-                            blogs
-                        </NavLink>
-                        <NavLink to="/resume" className="option">
-                            resume
-                        </NavLink>
-                        <NavLink to="/contact" className="option">
-                            contact
-                        </NavLink>
+                    <div id="web-options">
+                        <style>{css}</style>
+                        <div>
+                            <NavLink exact to="/projects" className="option">
+                                projects
+                            </NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="/blogs" className="option">
+                                blogs
+                            </NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="/resume" className="option">
+                                resume
+                            </NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="/contact" className="option">
+                                contact
+                            </NavLink>
+                        </div>
                     </div>
                     {/* right side buttons (hamburger not opened) */}
                     <div class="hamburger-wrapper">

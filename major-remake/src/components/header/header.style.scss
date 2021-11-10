@@ -17,26 +17,10 @@
     background-color: rgba(0, 0, 0, 0.591);
 
 
-    .web-options{
-        display: flex;
-        gap: 40px
-    }
+
     .opaque { 
         background-color: #333; 
     }
-
-    // .home-container {
-    //     font-family: 'Monoton', cursive;
-    //     height: 100%;
-    //     width: 300px;
-    //     padding: 25px;
-    //     text-decoration: none;
-    //     text-align: left;
-    //     color: #fff;
-    //     &:hover {
-    //         color: rgb(159, 159, 159)
-    //     }
-    // }
 
     .options {
         width: 50%;
@@ -44,8 +28,12 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
-
         width:100%;
+
+        #web-options{
+            display: flex;
+            gap: 60px;
+        }
 
         .option {
             padding: 10px 15px;
@@ -74,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // padding: 30px 40px;
+    padding: 0 20px;
     height: 10vh;
     text-transform: uppercase;
     letter-spacing: 1.5px;
