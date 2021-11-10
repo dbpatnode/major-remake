@@ -13,16 +13,14 @@ const Resume = () => (
                 {
                     resumeData.education && resumeData.education.map((item) => {
                         return (
-                            <div className="row item">
-                                <div className="twelve columns">
-                                    <h3><a href={item.UniversityUrl} target="_blank" rel="noreferrer">{item.UniversityName}</a></h3>
-                                    <p className="info">
-                                        {item.specialization}
-                                        <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                                    <p>
-                                        {item.Achievements}
-                                    </p>
-                                </div>
+                            <div>
+                                <h3><a href={item.UniversityUrl} target="_blank" rel="noreferrer">{item.UniversityName}</a></h3>
+                                <p className="info">
+                                    {item.specialization}
+                                    <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                                <p>
+                                    {item.Achievements}
+                                </p>
                             </div>
                         )
                     })
@@ -30,7 +28,6 @@ const Resume = () => (
             </div>
         </div>
 
-        {/* <div className="work"> */}
         <div className="resume-section work">
             <div className="header-column">
                 <h1><span>Work</span></h1>
@@ -40,16 +37,15 @@ const Resume = () => (
                     resumeData.work && resumeData.work.map((item) => {
                         console.log(item.Achievements.map((a => <li>{a.achievment}</li>)))
                         return (
-                            <div className="row item">
-                                <div className="twelve columns">
-                                    <h3><a href={item.CompanyUrl} target="_blank" rel="noreferrer">{item.CompanyName}</a></h3>
-                                    <p className="info">
-                                        {item.specialization}
-                                        <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                                    <ul className="resume-bullet-points">
-                                        {item.Achievements.map((a => <li>{a.achievment}</li>))}
-                                    </ul>
-                                </div>
+
+                            <div>
+                                <h3><a href={item.CompanyUrl} target="_blank" rel="noreferrer">{item.CompanyName}</a></h3>
+                                <p className="info">
+                                    {item.specialization}
+                                    <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                                <ul className="resume-bullet-points">
+                                    {item.Achievements.map((a => <li>{a.achievment}</li>))}
+                                </ul>
                             </div>
                         )
                     })
@@ -61,7 +57,6 @@ const Resume = () => (
             <div className="header-column">
                 <h1><span>Skills</span></h1>
             </div>
-            {/* <div className="skills-column"> */}
             <div className="content-column">
                 <div className="bars">
                     <ul className="skills-list">
