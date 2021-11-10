@@ -1,5 +1,4 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Daniel Patnode",
     "role": "Frontend Engineer",
     "location":"Seattle, WA",
@@ -47,12 +46,27 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"Transom Design",
+        "CompanyUrl":"https://transom.design/",
+        "specialization":"Junior Software Engineer",
+        "MonthOfLeaving":"November",
+        "YearOfLeaving":"2021",
+        "Achievements":[
+          {"achievment": "Built 4 full-featured, performant, pixel perfect, cross-browser, accessible sites using Javascript, React, PHP, CSS, SCSS, and Tailwind after consultation with Sales team to identify areas of client site improvement"}, 
+          {"achievment": "Created a CSS library to decrease CSS build time and deliver projects to clients ~15% earlier than projected deadline"},
+          {"achievment": "Developed code snippets that allowed clients to autonomously edit their site content, which decreased future development time "}
+        ]
+      },
+      {
         "CompanyName":"Unearth Labs",
         "CompanyUrl":"https://unearthlabs.com/",
         "specialization":"Front End Engineer Intern",
-        "MonthOfLeaving":"November",
+        "MonthOfLeaving":"May",
         "YearOfLeaving":"2021",
-        "Achievements":"Supported team in fulfilling account management needs while developing and facilitating customer service team with cohesive data management tool, including MithrilJS and SCSS. Coordinated comprehensive knowledge and expertise in improving load time across platform by 95.8% with the help of API as well as supported using of updated version of internal data management. "
+        "Achievements":[
+          {"achievment": "Built and tested a cohesive data management tool using MithrilJS, SCSS, ChaiJS, and RPC protocol that supported the customer service team"}, 
+          {"achievment": "Improved load time across platforms by 95.8% with requests to API taking < 5 seconds to complete"}
+        ]
       },
       {
         "CompanyName":"Quave CB",
@@ -60,7 +74,11 @@ let resumeData = {
         "specialization":"Scientific Glass Blower",
         "MonthOfLeaving":"June",
         "YearOfLeaving":"2020",
-        "Achievements":"Reduced expenditures on external lathe technicians while performing troubleshooting on ill-working lathe equipment through tactful techniques. Streamlined on-boarding process, enhanced productivity of training programs, and ensured highest level of cleanliness for staff members while aligning with upper management. Enhanced customer satisfaction, improved quality and process, and decreased material loss by 30% with implementation of raw material."
+        "Achievements":[
+          {"achievment": "Reduced expenditures on external lathe technicians while performing troubleshooting on ill-working lathe equipment through tactful techniques."},
+          {"achievment": "Streamlined on-boarding process, enhanced productivity of training programs, and ensured highest level of cleanliness for staff members while aligning with upper management."}, 
+          {"achievment": "Enhanced customer satisfaction, improved quality and process, and decreased material loss by 30% with implementation of raw material."}
+        ]
       },
     ],
     "skillsDescription":"Languages:",

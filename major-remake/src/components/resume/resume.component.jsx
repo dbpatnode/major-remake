@@ -36,6 +36,7 @@ const Resume = () => (
             <div className="content-column">
                 {
                     resumeData.work && resumeData.work.map((item) => {
+                        console.log(item.Achievements.map((a => <li>{a.achievment}</li>)))
                         return (
                             <div className="row item">
                                 <div className="twelve columns">
@@ -43,9 +44,9 @@ const Resume = () => (
                                     <p className="info">
                                         {item.specialization}
                                         <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                                    <p>
-                                        {item.Achievements}
-                                    </p>
+                                    <ul>
+                                        {item.Achievements.map((a => <li>{a.achievment}</li>))}
+                                    </ul>
                                 </div>
                             </div>
                         )
