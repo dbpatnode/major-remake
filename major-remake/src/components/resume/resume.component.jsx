@@ -44,7 +44,7 @@ const Resume = () => (
                                     <p className="info">
                                         {item.specialization}
                                         <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                                    <ul>
+                                    <ul className="resume-bullet-points">
                                         {item.Achievements.map((a => <li>{a.achievment}</li>))}
                                     </ul>
                                 </div>

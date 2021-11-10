@@ -4,7 +4,7 @@ let resumeData = {
     "location":"Seattle, WA",
     "linkedinId":"daniel-patnode",
     // "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and learning about new technologies, diving into documentation and keeping active in my free time.",
+    "roleDescription": "Problem-solving creator who thrives in ambiguous environments, located out of Seattle, WA. I love dabbling in all parts of frontend development, learning new technologies, diving into documentation and generally expanding my knowlede.",
     "socialLinks":[
         {
           "name":"linkedin",
