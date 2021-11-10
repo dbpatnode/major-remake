@@ -41,12 +41,14 @@
         }
 
         .information-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             width: 50%;
             p {
                 color: rgb(218, 218, 218);
                 font-weight: 400;
                 font-size: 20px;
-                // text-shadow: 1px 1px #ffffff;
             }
         }
     }
@@ -62,6 +64,8 @@
       @media only screen and (max-width: 531px) {
             .content-container{
                 flex-direction: column;
+                background-color: rgba(255, 255, 255, 0) !important;
+                backdrop-filter: blur(0px) !important;
 
                 .headshot-container{
                     width: 100% ;

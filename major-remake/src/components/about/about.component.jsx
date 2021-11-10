@@ -20,16 +20,6 @@ export default class About extends Component {
                             {resumeData.aboutme} Feel free to reach out with any inquiries <a target="_blank" rel="noopener noreferrer" href="/contact">here</a>.
 
                         </p>
-                        {/* <h2>Contact Details</h2> */}
-                        {/* <p className="address"> */}
-                        {/* <span>{resumeData.name}</span>
-                            <br></br>
-                            <span>
-                                {resumeData.address}
-                            </span>
-                            <br></br> */}
-                        {/* <a target="_blank" rel="noopener noreferrer" href="/contact">Contact Me</a> */}
-                        {/* </p> */}
                     </div>
                 </div>
             </div>

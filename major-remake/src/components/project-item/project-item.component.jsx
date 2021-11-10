@@ -1,7 +1,7 @@
 import React from 'react';
 import './project-item.style.scss';
 
-class CollectionItem extends React.Component {
+class ProjectItem extends React.Component {
     stacks = (tech) => {
         return tech.map(lang => {
             switch (lang) {
@@ -96,47 +96,56 @@ class CollectionItem extends React.Component {
     render() {
         const { name, imgUrl, description, githubUrl, linkUrl, youtube, techStack } = this.props
         return (
-            <div className="project-item">
-                <div
-                    className="image"
-                    style={{
-                        backgroundImage: `url(/images/${imgUrl})`
-                    }}
-                >
-                </div>
-                <h1 className="name">{name}</h1>
-                <div className="link-container">
-                    {
-                        githubUrl ?
-                            <span><a href={githubUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a></span>
-                            :
-                            null
-                    }
-                    {
-                        linkUrl ?
-                            <a href={linkUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-link" /></a>
-                            :
-                            null
-                    }
-                    {
-                        youtube ?
-                            <a href={youtube} id="link" target="_blank" rel="noreferrer"><i className="fab fa-youtube" /></a>
-                            :
-                            null
-                    }
-                </div>
-                <div className="collection-footer">
-                    <span className="description">{description}</span>
-                </div>
-                <div className="bars">
+            <div className="project-item-wrapper">
 
-                    <div>
-                        <span className="techs">{this.stacks(techStack)}</span>
+                <div className="project-item">
+
+                    <div className="image"
+                        style={{
+                            backgroundImage: `url(/images/${imgUrl})`
+                        }}
+                    >
+
+                        <span className="card-top">
+                            <div className="header">
+                                <h1 className="name">{name}</h1>
+                            </div>
+
+
+                            <div className="link-container">
+                                {
+                                    githubUrl ?
+                                        <span><a href={githubUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a></span>
+                                        :
+                                        null
+                                }
+                                {
+                                    linkUrl ?
+                                        <a href={linkUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-link" /></a>
+                                        :
+                                        null
+                                }
+                                {
+                                    youtube ?
+                                        <a href={youtube} id="link" target="_blank" rel="noreferrer"><i className="fab fa-youtube" /></a>
+                                        :
+                                        null
+                                }
+                            </div>
+                        </span>
+
+                        <div className="collection-footer">
+                            <span className="description">{description}</span>
+                        </div>
+
                     </div>
+                </div >
+                <div>
+                    <span className="techs">{this.stacks(techStack)}</span>
                 </div>
-            </div >
+            </div>
         )
     }
 }
 
-export default CollectionItem
+export default ProjectItem
