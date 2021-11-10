@@ -7,6 +7,10 @@
     padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
+
+    // .resume-section {
+    //   display: flex
+    // }
     
     .header-column {
         margin-bottom:-50px;
@@ -46,17 +50,6 @@
     p {
       margin-right: 5%;
     }
-    .education{
-        margin-bottom: 48px;
-        padding-bottom: 24px;
-        border-bottom: 1px solid #E8E8E8;
-    }
-
-    .work {
-      margin-bottom: 48px;
-      padding-bottom: 24px;
-      border-bottom: 1px solid #E8E8E8;
-    }
 
     .info {
         font: 16px/24px 'librebaskerville-italic', serif;
@@ -75,80 +68,83 @@
         margin-top: 6px;
     }
 
-    .skill-container {
+    .skills {
+      margin-top: 60px;
       .bars {
         width: 95%;
         float: left;
         padding: 0;
         text-align: left;
-      }
-      
-      .skills {
-        list-style: none;
-      }
-      
-      .bars li {
-        position: relative;
-        margin-bottom: 60px;
-        background: #ccc;
-        height: 42px;
-        border-radius: 3px;
-      }
 
-      .bars li em {
-        font: 15px 'opensans-bold', sans-serif;
-        color: #313131;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: normal;
-        position: relative;
-        top: -36px;
-      }
+        li {
+          position: relative;
+          margin-bottom: 60px;
+          background: #ccc;
+          height: 42px;
+          border-radius: 3px;
+          
+          .bar-expand {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin: 0;
+            padding-right: 24px;
+            background: #287f82;
+            display: inline-block;
+            height: 42px;
+            line-height: 42px;
+            border-radius: 3px 0 0 3px;
+          }
 
-      .bar-expand {
-        position: absolute;
-        left: 0;
-        top: 0;
-        margin: 0;
-        padding-right: 24px;
-        background: #287f82;
-        display: inline-block;
-        height: 42px;
-        line-height: 42px;
-        border-radius: 3px 0 0 3px;
-      }
-      .css {
-        width: 90%;
-      }
-      .html5 {
-        width: 80%;
-      }
-      .javascript {
-        width: 70%;
-      }
-      .reactjs {
-        width: 90%;
-      }
-      .json {
-        width: 67%;
-      }
-      .git {
-        width: 56%;
-      }
-      .ruby {
-        width: 60%;
-      }
-      .ruby-on-rails {
-        width: 60%;
-      }
-      .sql {
-        width: 50%;
-      }
-      .firebase {
-        width: 50%;
-      }
-      .jwt-authentication {
-        width: 30%;
+            em {
+              font: 15px 'opensans-bold', sans-serif;
+              color: #313131;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              font-weight: normal;
+              position: relative;
+              top: -36px;
+            }
+        }
+
+        .skills-list {
+          list-style: none;
+          margin-top: 40px;
+        }
+
+        .css {
+          width: 90%;
+        }
+        .html5 {
+          width: 80%;
+        }
+        .javascript {
+          width: 70%;
+        }
+        .reactjs {
+          width: 90%;
+        }
+        .json {
+          width: 67%;
+        }
+        .git {
+          width: 56%;
+        }
+        .ruby {
+          width: 60%;
+        }
+        .ruby-on-rails {
+          width: 60%;
+        }
+        .sql {
+          width: 50%;
+        }
+        .firebase {
+          width: 50%;
+        }
+        .jwt-authentication {
+          width: 30%;
+        }
       }
   }
 }

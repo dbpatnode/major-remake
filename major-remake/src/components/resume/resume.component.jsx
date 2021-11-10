@@ -4,7 +4,8 @@ import resumeData from '../../resumeData';
 
 const Resume = () => (
     <div id="resume">
-        <div className="education">
+        {/* <div className="education"> */}
+        <div className="resume-section education">
             <div className="header-column">
                 <h1><span>Education</span></h1>
             </div>
@@ -29,7 +30,8 @@ const Resume = () => (
             </div>
         </div>
 
-        <div className="work">
+        {/* <div className="work"> */}
+        <div className="resume-section work">
             <div className="header-column">
                 <h1><span>Work</span></h1>
             </div>
@@ -55,13 +57,14 @@ const Resume = () => (
             </div>
         </div>
 
-        <div className="skill-container">
+        <div className="resume-section skills">
             <div className="header-column">
                 <h1><span>Skills</span></h1>
             </div>
-            <div className="skills-column">
+            {/* <div className="skills-column"> */}
+            <div className="content-column">
                 <div className="bars">
-                    <ul className="skills">
+                    <ul className="skills-list">
                         {
                             resumeData.skills && resumeData.skills.map((item) => {
                                 return (
