@@ -16,22 +16,27 @@
     top: 0;
     background-color: rgba(0, 0, 0, 0.591);
 
+
+    .web-options{
+        display: flex;
+        gap: 40px
+    }
     .opaque { 
         background-color: #333; 
     }
 
-    .home-container {
-        font-family: 'Monoton', cursive;
-        height: 100%;
-        width: 300px;
-        padding: 25px;
-        text-decoration: none;
-        text-align: left;
-        color: #fff;
-        &:hover {
-            color: rgb(159, 159, 159)
-        }
-    }
+    // .home-container {
+    //     font-family: 'Monoton', cursive;
+    //     height: 100%;
+    //     width: 300px;
+    //     padding: 25px;
+    //     text-decoration: none;
+    //     text-align: left;
+    //     color: #fff;
+    //     &:hover {
+    //         color: rgb(159, 159, 159)
+    //     }
+    // }
 
     .options {
         width: 50%;
@@ -62,58 +67,21 @@
 
 
 .nav-active {
-    color:#F0672B !important;
+    color:#11ABB0 !important;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 40px;
-    height: 80px;
+    // padding: 30px 40px;
+    height: 10vh;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin: 0 auto; /* centers text vertically in div */ 
     z-index: 100;
     left: 0px;
     top:15;
-
-    li {
-        a {
-            text-decoration: none;
-            color: rgb(20, 55, 108);
-            
-            &:hover {
-                color: rgb(43, 104, 194);
-            } 
-        }
-    }
-
-    .flag {
-        margin-left: 20%
-    }
-    .car {
-        margin-left: 30%
-    }
-        
-    .nav-options {
-            padding-left: 25px;
-            display: grid;
-            grid-template-columns: repeat(3, auto);
-            grid-gap: 50px;
-            list-style-type: none;
-    }
-
-    // .option { display: block;}
-
-    .right-nav {
-
-        display: flex;
-        padding: 0px 25px;
-        list-style-type: none;
-    }
-
-
 
     .logo {
         margin-right:15px;
@@ -122,22 +90,21 @@
 
 .navigation {
     position: absolute;
-    right:50px;
+    top: -14px;
+    right:0px;
     width:100%;
     height:100%;
     z-index:1000;
     clip-path:circle(25px at calc(100% - 45px) 45px);
     transition:all 500ms ease-in-out;
-    }
+}
 
     .navigation.active {
     position: fixed;
-    margin-top: -70px;
-    // margin-top: -22px;
-    height: 100vh;
-    background:#2A5F7B;
-    // background-image: url(gsb-retro-motif.png);
+    height: 104vh;
+    background:#000000;
     clip-path:circle(75%);
+
     }
 
 // ** Hamburger button ** //
@@ -157,7 +124,7 @@
     transform:translate(-50%,-50%);
     width:50%;
     height:3.5px;
-    background:#F0672B;
+    background:#11ABB0;
     transition:all 200ms ease-in-out;
     }
 
@@ -219,6 +186,7 @@
     
     .navigation .links {
     position:absolute;
+    
     top:50%; // change top position to move inner links up and down
     left:50%;
     transform:translate(-50%,-50%);
@@ -262,229 +230,233 @@
         
     }
 
+    .right-side-wrap{
+        display: flex;
+    }
+
 
 
     @media screen and (min-width: 1040px){
         .navigation{
-            display: none;
+            display: none !important;
         }
     }
 
     @media screen and (max-width: 1040px){
         .web-options{
-            display: none;
+            display: none !important;
         }
     }
 /////////////
 // laptops //
 /////////////
 
-    @media screen and (max-width:1440px) {
-        .navigation.active {
-            width: 93%
-        }
-}
+//     @media screen and (max-width:1440px) {
+//         .navigation.active {
+//             width: 93%
+//         }
+// }
 
 /////////////////////
 // large monitors //
 ////////////////////
 
-        @media screen and (min-width:1441px) {
-            .navigation {
-                right: 77px
-            }
-            .navigation.active {
-                width: 92%;
-            }
+        // @media screen and (min-width:1441px) {
+        //     .navigation {
+        //         right: 77px
+        //     }
+        //     .navigation.active {
+        //         width: 92%;
+        //     }
 
-            .inner-logo-container {
-            width: 96%;
-            }
-        }
+        //     .inner-logo-container {
+        //     width: 96%;
+        //     }
+        // }
 
 /////////////////
 //larger phones//
 /////////////////
 
-    @media screen and (max-width:480px) {
-        .navigation {
-            right: -5px
-        }
+    // @media screen and (max-width:480px) {
+    //     .navigation {
+    //         right: -5px
+    //     }
 
-        .navigation.active {
-            width: 100%;
-            position: fixed
-        }
-        .nav-options {
-            display: none;
-        }
+    //     .navigation.active {
+    //         width: 100%;
+    //         position: fixed
+    //     }
+    //     .nav-options {
+    //         display: none;
+    //     }
 
-        .inner-left-nav-options {
-            li {
-                padding: 560px 25px 0px 40px;
-            }
-        }
+    //     .inner-left-nav-options {
+    //         li {
+    //             padding: 560px 25px 0px 40px;
+    //         }
+    //     }
 
-        .mobile-lower-links {
-            margin-top: 100%
-        }
-    }
+    //     .mobile-lower-links {
+    //         margin-top: 100%
+    //     }
+    // }
 
 ///////////
 // pixel // 
 ///////////
 
-    @media screen and (max-width:480px) {
-        .navigation .links {
-            top:45%; // change top position to move inner links up and down
-        }   
-        .logo {
-            margin-left: 175px;
-        }
+    // @media screen and (max-width:480px) {
+    //     .navigation .links {
+    //         top:45%; // change top position to move inner links up and down
+    //     }   
+    //     .logo {
+    //         margin-left: 175px;
+    //     }
 
-        .navigation .links a {
-            font-size:50px;
-        }
+    //     .navigation .links a {
+    //         font-size:50px;
+    //     }
 
-        .inner-logo-container {
-            width: 78%;
+    //     .inner-logo-container {
+    //         width: 78%;
             
-        }
+    //     }
 
-        .inner-left-nav-options {
-            li {
-                padding: 570px 10px 0px 45px;
-            }
-        }
+    //     .inner-left-nav-options {
+    //         li {
+    //             padding: 570px 10px 0px 45px;
+    //         }
+    //     }
 
-        .navigation.active {
-            height: 110vh;
-        }
-    }
+    //     .navigation.active {
+    //         height: 110vh;
+    //     }
+    // }
 
 ////////////////
 // pixel 2 xl //
 ////////////////
 
-@media screen and (max-height:823px) {
-    .inner-left-nav-options {
-        li {
-            padding: 640px 10px 0px 45px;
-        }
-    }
-}
+// @media screen and (max-height:823px) {
+//     .inner-left-nav-options {
+//         li {
+//             padding: 640px 10px 0px 45px;
+//         }
+//     }
+// }
 
 //////////////////
 // iphone 6,7,8 //
 //////////////////
-    @media screen and (max-width:375px) {
-        .logo {
-            margin-left: 150px
-        }
+    // @media screen and (max-width:375px) {
+    //     .logo {
+    //         margin-left: 150px
+    //     }
     
-        .navigation .links {
-            top:60%; // change top position to move inner links up and down
-        }
+    //     .navigation .links {
+    //         top:60%; // change top position to move inner links up and down
+    //     }
     
-        .inner-logo-container {
-            width: 78%;
-        }
+    //     .inner-logo-container {
+    //         width: 78%;
+    //     }
     
-        .navigation .links {
-            top:45%; // change top position to move inner links up and down
-        }
+    //     .navigation .links {
+    //         top:45%; // change top position to move inner links up and down
+    //     }
     
-        .navigation .links a {
-            font-size:37px;
-        }
+    //     .navigation .links a {
+    //         font-size:37px;
+    //     }
     
-        .navigation.active {
-            height: 110vh;
-        }
+    //     .navigation.active {
+    //         height: 110vh;
+    //     }
 
-        .inner-left-nav-options {
-            li {
-                padding: 420px 10px 0px 35px;
-            }
-        }
-    }
+    //     .inner-left-nav-options {
+    //         li {
+    //             padding: 420px 10px 0px 35px;
+    //         }
+    //     }
+    // }
 
 //////////////
 // iphone x //
 //////////////
-    @media screen and (max-width:812px) {
-        .inner-left-nav-options {
-            li {
-                padding: 520px 10px 0px 35px;
-            }
-        }
-    }
+    // @media screen and (max-width:812px) {
+    //     .inner-left-nav-options {
+    //         li {
+    //             padding: 520px 10px 0px 35px;
+    //         }
+    //     }
+    // }
 
 
 ////////////////////////
 // Galaxy x5 & Moto G4//
 ////////////////////////
 
-@media screen and (max-width:360px) {
-    .logo {
-        margin-left: 130px
-    }
+// @media screen and (max-width:360px) {
+//     .logo {
+//         margin-left: 130px
+//     }
 
-    .navigation .links {
-        top:60%; // change top position to move inner links up and down
-    }
+//     .navigation .links {
+//         top:60%; // change top position to move inner links up and down
+//     }
 
-    .inner-logo-container {
-        width: 78%;
-    }
+//     .inner-logo-container {
+//         width: 78%;
+//     }
 
-    .navigation .links {
-        top:44%; // change top position to move inner links up and down
-    }
+//     .navigation .links {
+//         top:44%; // change top position to move inner links up and down
+//     }
 
-    .navigation .links a {
-        font-size:35px;
-    }
+//     .navigation .links a {
+//         font-size:35px;
+//     }
 
-    .navigation.active {
-        height: 110vh;
-    }
+//     .navigation.active {
+//         height: 110vh;
+//     }
 
-    .inner-left-nav-options {
-        li {
-            padding: 475px 10px 0px 28px;
-        }
-    }
-}
+//     .inner-left-nav-options {
+//         li {
+//             padding: 475px 10px 0px 28px;
+//         }
+//     }
+// }
 
 //////////////////
 // iphone 5/SE //
 /////////////////
-@media screen and (max-width:320px) {
-    .logo {
-        margin-left: 90px
-    }
+// @media screen and (max-width:320px) {
+//     .logo {
+//         margin-left: 90px
+//     }
 
-    .inner-logo-container {
-        width: 77%;
-    }
+//     .inner-logo-container {
+//         width: 77%;
+//     }
 
-    .navigation .links {
-        top:42%; // change top position to move inner links up and down
-    }
+//     .navigation .links {
+//         top:42%; // change top position to move inner links up and down
+//     }
     
-    .navigation .links a {
-        font-size:25px;
-    }
+//     .navigation .links a {
+//         font-size:25px;
+//     }
 
-    .navigation.active {
-        height: 117vh;
-    }
+//     .navigation.active {
+//         height: 117vh;
+//     }
 
-    .inner-left-nav-options {
-        li {
-            padding: 420px 10px 0px 17px;
-        }
-    }
-}
+//     .inner-left-nav-options {
+//         li {
+//             padding: 420px 10px 0px 17px;
+//         }
+//     }
+// }
 }

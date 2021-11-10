@@ -9,13 +9,13 @@ const HomePage = () => (
             <div className="banner-text">
                 <div className="flex-column-wrapper">
                     <p className="first">
-                        <h1 data-splitting>{resumeData.name}</h1>
+                        <h1 data-splitting>Hi, I'm {resumeData.name}</h1>
                     </p>
                 </div>
 
                 <div className="flex-column-wrapper">
                     <p className="second">
-                        <h3> {resumeData.roleDescription}</h3>
+                        <h3> A {resumeData.roleDescription}</h3>
                         <hr />
                         <ul className="social">
                             {
