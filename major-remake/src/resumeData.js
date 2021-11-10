@@ -123,7 +123,7 @@ let resumeData = {
         "githubUrl":"https://github.com/dbpatnode/brewmaps-frontend",
         // "linkUrl":
         "youtube":"https://www.youtube.com/watch?v=B3SEAptSnTM&t=3s", 
-        "techStack": ["html", "css", "javaScript", "react", "ruby", "sqlite", "reactRouter", "mapbox", "openBrewery" ]
+        "techStack": ["react", "ruby", "mapbox", "openBrewery" ]
       },
       {
         "name":"FavFest",
