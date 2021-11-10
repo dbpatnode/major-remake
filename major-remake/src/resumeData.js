@@ -103,7 +103,7 @@ let resumeData = {
       {
         "name":"GS Burgers",
         "description":"Responsive mock up of menus and landing page for Great State Burgers.",
-        "imgUrl":"great-state-burger.png",
+        "imgUrl":"GSB.jpg",
         "githubUrl":"https://github.com/dbpatnode/real-transom-takehome",
         "linkUrl":"https://transom-takehome.web.app/",
         "techStack": ["html", "sass", "react", "reactRouter",  "firebase" ]
@@ -111,7 +111,7 @@ let resumeData = {
       {
         "name":"Portfolio V1",
         "description":"First iteration of my portfolio site showcasing my work as a software developer.",
-        "imgUrl":"headshot.png",
+        "imgUrl":"setup.png",
         // "githubUrl":"",
         "linkUrl":"https://danielpatnode.netlify.app/",
         "techStack": ["html", "css", "javaScript", "sass", "netlify" ]
