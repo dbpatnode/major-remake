@@ -112,3 +112,40 @@
         }
     }
 }
+
+@media only screen and (max-width: 1040px) {
+    .project-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    .image {
+        margin-top: 20px !important;
+        width: 100% !important;
+        height: 60vh !important;
+    }
+
+    .collection-footer {
+        opacity: 1 !important;
+    }
+}
+}
+
+@media only screen and (max-width: 531px) { 
+    .project-item-wrapper {
+        .image {
+            margin-top: 0px !important;
+            width: 85vw !important;
+            height: 66vh !important;
+        }
+
+        .collection-footer {
+            opacity: 1 !important;
+        }
+
+        .techs-wrapper {
+            width: 100vw;
+            margin-top: -16px;
+        }
+    }
+}
