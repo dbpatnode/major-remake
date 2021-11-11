@@ -32,7 +32,6 @@
                 width: 85%;
                 height: 85%;
                 border-radius: 5%;
-                // background-color: pink;
                 background-image: url(/images/headshot.png);
                 background-position: 25% 27%;
                 background-size: cover;
@@ -46,9 +45,11 @@
             flex-direction: column;
             width: 50%;
             p {
-                // color: rgb(218, 218, 218);
                 font-weight: 400;
                 font-size: 20px;
+                a {
+                    color: #11ABB0
+                }
             }
         }
     }
