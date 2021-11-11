@@ -1,36 +1,47 @@
-* {
-  font: 'opensans-bold', sans-serif;
- 
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Spinnaker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 body {
   max-width: 100vw;
   margin: 0;
   background-color: black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(218, 218, 218);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+    font-size: 7vw;
+    margin: 0;
+  }
+
+.logo {
+    font-size: x-large;
+    font-family: "Monoton";
+
+    a{
+        &:hover, &:focus { color: #e7e7e7; }
+    }
+}
+
 a {
-  // color: #11ABB0;
   cursor: pointer;
-  color: #fff;
+  color: rgb(218, 218, 218);
   text-decoration: none;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   &:visited  { color: #11ABB0; }
-  &:hover, &:focus { color: #313131; }
+  &:hover, &:focus { color: #11ABB0 }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
 
 
 .flex {

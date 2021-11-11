@@ -52,7 +52,7 @@
       margin: 0 auto;
 
       h3 {
-         color: rgb(218, 218, 218);
+         // color: rgb(218, 218, 218);
          font-weight: 400;
          font-size: 20px;
          line-height: 30px;
@@ -127,14 +127,6 @@
  p.first {
    -webkit-animation-delay: .5s;
            animation-delay: .5s;
-
-      h1 {
-         font-family: Raleway;
-         font-weight: 900;
-         font-size: 8vw;
-         color: #d1d1d1;
-         margin: 0;
-      }
  }
  p.second {
    -webkit-animation-delay: 2s;

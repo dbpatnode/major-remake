@@ -1,5 +1,6 @@
 
 #resume {
+  color: #333333;
     margin: 0 auto;
     width: 100%;
     background: #fff;
@@ -28,11 +29,13 @@
 
 
     h1 {
+        
         font: 18px/24px 'opensans-bold', sans-serif;
         text-transform: uppercase;
         letter-spacing: 1px;
 
         span {
+            color: #333333;
             border-bottom: 3px solid #11ABB0;
             padding-bottom: 6px;
         }

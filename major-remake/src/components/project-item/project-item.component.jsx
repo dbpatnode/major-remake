@@ -108,7 +108,7 @@ class ProjectItem extends React.Component {
 
                         <span className="card-top">
                             <div className="header">
-                                <h1 className="name">{name}</h1>
+                                <h2 className="name">{name}</h2>
                             </div>
 
 
