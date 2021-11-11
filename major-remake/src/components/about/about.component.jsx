@@ -11,13 +11,12 @@ export default class About extends Component {
                 <div className="content-container">
                     <div className="headshot-container">
                         <div className="profile-pic"></div>
-                        {/* <img className="profile-pic" src={Headshot} alt="Daniel Patnode" /> */}
                     </div>
 
                     <div className="information-container">
                         <h2>About Me</h2>
                         <p>
-                            {resumeData.aboutme} Feel free to reach out with any inquiries <a target="_blank" rel="noopener noreferrer" href="/contact">here</a>.
+                            {resumeData.aboutme} Feel free to reach out with any inquiries <a href="/contact">here</a>.
 
                         </p>
                     </div>

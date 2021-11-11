@@ -15,7 +15,7 @@ const HomePage = () => (
 
                 <div className="flex-column-wrapper">
                     <p className="second">
-                        <h3> A {resumeData.roleDescription}</h3>
+                        <h3> {resumeData.roleDescription}</h3>
                         <hr />
                         <ul className="social">
                             {
