@@ -10,12 +10,7 @@ function Header() {
         setActive(!isActive);
     };
 
-    const css = `
-        .web-options {
-            display: flex;
-            gap: 60px;
-        }
-    `
+
 
     return (
         <nav className="header">
@@ -29,24 +24,23 @@ function Header() {
 
             <div className='options'>
                 <div className="right-side-wrap">
-                    <div id="web-options">
-                        <style>{css}</style>
-                        <div>
+                    <div className="web-options">
+                        <div className="web">
                             <NavLink exact to="/projects" className="option">
                                 projects
                             </NavLink>
                         </div>
-                        <div>
+                        <div className="web">
                             <NavLink to="/blogs" className="option">
                                 blogs
                             </NavLink>
                         </div>
-                        <div>
+                        <div className="web">
                             <NavLink to="/resume" className="option">
                                 resume
                             </NavLink>
                         </div>
-                        <div>
+                        <div className="web">
                             <NavLink to="/contact" className="option">
                                 contact
                             </NavLink>
