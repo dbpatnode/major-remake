@@ -110,40 +110,42 @@ class ProjectItem extends React.Component {
                             <div className="header">
                                 <h2 className="name">{name}</h2>
                             </div>
-
-
-                            <div className="link-container">
-                                {
-                                    githubUrl ?
-                                        <div className="swing">
-                                            <span><a href={githubUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a></span>
-                                        </div>
-                                        :
-                                        null
-                                }
-                                {
-                                    linkUrl ?
-                                        <div className="swing">
-                                            <a href={linkUrl} id="link" target="_blank" rel="noreferrer"><i className="fa fa-link" /></a>
-                                        </div>
-                                        :
-                                        null
-                                }
-                                {
-                                    youtube ?
-                                        <div className="swing">
-                                            <a href={youtube} id="link" target="_blank" rel="noreferrer"><i className="fab fa-youtube" /></a>
-                                        </div>
-                                        :
-                                        null
-                                }
-                            </div>
                         </span>
 
                         <div className="collection-footer">
                             <span className="description">{description}</span>
                         </div>
 
+                        <div className="bottom">
+                            <div className="link-container">
+                                {/* <div className="links"> */}
+                                {
+                                    githubUrl ?
+                                        <div className="swing link">
+                                            <a href={githubUrl} target="_blank" rel="noreferrer"><i className="fa fa-github" /></a>
+                                        </div>
+                                        :
+                                        null
+                                }
+                                {
+                                    linkUrl ?
+                                        <div className="swing link">
+                                            <a href={linkUrl} target="_blank" rel="noreferrer"><i className="fa fa-link" /></a>
+                                        </div>
+                                        :
+                                        null
+                                }
+                                {
+                                    youtube ?
+                                        <div className="swing link">
+                                            <a href={youtube} target="_blank" rel="noreferrer"><i className="fab fa-youtube" /></a>
+                                        </div>
+                                        :
+                                        null
+                                }
+                                {/* </div> */}
+                            </div>
+                        </div>
                     </div>
                 </div >
                 <div className="techs-wrapper">
