@@ -7,6 +7,9 @@
     padding:70px 0px;
     overflow: hidden;
 
+    a {
+      color: #11ABB0;
+    }
     .resume-section {
       width:90vw;
       display: flex;
@@ -74,12 +77,12 @@
         }
       }
       .date {
-        font: 15px/24px 'opensans-regular', sans-serif;
+        // font: 15px/24px 'opensans-regular', sans-serif;
         margin-top: 6px;
     }
 
     .info {
-      font: 16px/24px 'librebaskerville-italic', serif;
+      // font: 16px/24px 'librebaskerville-italic', serif;
       color: #6E7881;
       margin-bottom: 18px;
       margin-top: 9px;
