@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom';
+
 import './header.style.scss';
 
 function Header() {
@@ -16,11 +17,13 @@ function Header() {
         <nav className="header">
 
             {/* LOGO */}
-            <div className="logo">
-                <NavLink activeClassName="nav-active" to="/" className="option home-container">
-                    DP
-                </NavLink>
-            </div>
+            {/* <div className="logo"> */}
+            <NavLink activeClassName="nav-active" to="/" className="option home-container">
+                <div className="logo">
+
+                </div>
+            </NavLink>
+            {/* </div> */}
 
 
             <div className="right-side-wrap">

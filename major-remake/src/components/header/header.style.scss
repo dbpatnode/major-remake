@@ -13,11 +13,21 @@
     
     .nav-active {
         color:#11ABB0 !important;
+        padding-left: 20px;
+        .logo{
+            width:80px;
+            height: 40px; 
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(/images/logo.png);
+        }
     }
-    
 
-.web-options {
+
+    .web-options {
     font-size: larger;
+    padding-right: 10px;
 
     .links {
 
