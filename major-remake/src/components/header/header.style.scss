@@ -171,8 +171,13 @@
 
     @media screen and (max-width: 1040px){
         .web-options {
-
            display: none; 
         }
     }
 }
+
+@media only screen and (max-width: 321px) {
+    .header .navigation .links a {
+        font-size: 38px;
+    }
+ }
