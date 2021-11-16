@@ -17,28 +17,24 @@ function Header() {
         <nav className="header">
 
             {/* LOGO */}
-            {/* <div className="logo"> */}
-            <NavLink activeClassName="nav-active" to="/" className="option home-container">
-                <div className="logo">
-
-                </div>
+            <NavLink activeClassName="logo" to="/">
+                <div className="logo-image" />
             </NavLink>
-            {/* </div> */}
 
 
-            <div className="right-side-wrap">
+            <div>
                 {/* WEB BUTTONS */}
                 <div className="web-options">
                     <div className="links">
-                        <NavLink exact to="/projects" className="option"> projects </NavLink>
-                        <NavLink to="/blogs" className="option"> blogs </NavLink>
-                        <NavLink to="/resume" className="option"> resume </NavLink>
-                        <NavLink to="/contact" className="option"> contact </NavLink>
+                        <NavLink exact to="/projects"> projects </NavLink>
+                        <NavLink to="/blogs"> blogs </NavLink>
+                        <NavLink to="/resume"> resume </NavLink>
+                        <NavLink to="/contact"> contact </NavLink>
                     </div>
                 </div>
 
 
-                {/* MOBILE HAMBURGER*/}
+                {/* MOBILE HAMBURGER BUTTON*/}
                 <div class="hamburger-wrapper">
                     <div className={isActive ? "navigation active" : "navigation"} >
                         <div className="ham-btn" onClick={ToggleClass}>

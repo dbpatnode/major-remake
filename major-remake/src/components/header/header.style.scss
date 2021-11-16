@@ -11,10 +11,11 @@
     left: 0px;
     top:15;
     
-    .nav-active {
+    // logo
+    .logo {
         color:#11ABB0 !important;
         padding-left: 20px;
-        .logo{
+        .logo-image{
             width:80px;
             height: 40px; 
             background-position: center;
@@ -30,7 +31,6 @@
     padding-right: 10px;
 
     .links {
-
         display: flex;
         gap: 40px;
         a {
