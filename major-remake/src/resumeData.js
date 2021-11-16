@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-medium"
         }
       ],
-    "aboutme":"Frontend Engineer with experience in Javascript based programming including multiple frameworks and libraries. My background in scientific glass blowing and organic agriculture contributed heavily to my joy of learning. I bring strong team-building, project management and interpersonal communication skills to the table that would help any sized team progress in a constructive and positive fashion. In my spare time I enjoy camping, getting outdoors, practicing Brazilian jiu-jitsu, exercising, checking out breweries and hunting for the perfect cheeseburger.",
+    "aboutme":"Hi! Names Daniel. I'm a software engineer with a background in scientific glass blowing, an education from Washington State Universities College of Agricultural, Human, and Natural Resource Sciences, and a drive to continuously learn. In my time as an engineer I've contributed to over a dozen projects, a variety of  which I have seen through to completion from start to finish, and assisted with managing multiple projects for a wide variety of clientele ranging from  restaurant groups to utilities companies. In my spare time you can find me coding, camping, outdoors-ing, practicing Brazilian jiu-jitsu, exercising and hunting for the perfect cheeseburger.",
     "address":"Seattle, WA",
     "website":"https://github.com/dbpatnode",
     "education":[
