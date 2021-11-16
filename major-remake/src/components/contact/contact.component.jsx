@@ -14,11 +14,13 @@
 // }
 
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
+import './contact.style.scss';
 
 const Contact = () => {
     const form = useRef();
+
 
 
     const SERVICE_KEY = process.env.REACT_APP_EMAILJS_SERVICE_KEY
@@ -35,16 +37,37 @@ const Contact = () => {
             });
     };
 
+
+    // const [firstname, setFirstname] = useState('');
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+
+    function SubmitButton() {
+        if (name && email) {
+            return <input type="submit" value="Send" />
+        } else {
+            return <input type="submit" value="Send" disabled />
+        };
+    };
+
     return (
-        <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="from_name" />
-            <label>Email</label>
-            <input type="email" name="senders_email_address" />
-            <label>Message</label>
-            <textarea name="message" />
-            <input type="submit" value="Send" />
-        </form>
+        <div className="contact">
+            <h2>Have a question or just want to reach out? Let's get in touch!</h2>
+            <form classref={form} onSubmit={sendEmail} className="email-form">
+
+                <label className="email-form-label">Your Name: </label>
+                <input type="text" name="from_name" value={name} onChange={e => setName(e.target.value)} required />
+                <label className="email-form-label">Email: </label>
+                <input type="email" name="senders_email_address" value={email} onChange={e => setEmail(e.target.value)} required />
+
+
+                <label className="email-form-label">Talk to me: </label>
+                <textarea className="email-message-box" name="message" />
+                <SubmitButton />
+
+            </form >
+        </div >
+
     );
 };
 
