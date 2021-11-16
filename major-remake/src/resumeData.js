@@ -3,7 +3,7 @@ let resumeData = {
     "role": "Frontend Engineer",
     "location":"Seattle, WA",
     "linkedinId":"daniel-patnode",
-    "roleDescription": "A problem-solving creative who thrives in ambiguous environments, located in Seattle, WA. I love dabbling in all parts of frontend development, learning new technologies, diving into documentation and generally expanding my knowlede.",
+    "roleDescription": "A problem-solving creative who thrives in ambiguous environments, located in Seattle, WA. I love dabbling in all parts of Web development, learning new technologies, diving into documentation and generally expanding my knowledge.",
     "socialLinks":[
         {
           "name":"linkedin",

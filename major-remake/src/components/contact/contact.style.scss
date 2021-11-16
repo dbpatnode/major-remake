@@ -1,7 +1,7 @@
 .contact {
 
     height:85vh;
-    // display: inline-flex;
+    display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -13,14 +13,14 @@
     text-align: center;
     overflow: hidden;
 
-    .email-form {
-        // width: 75vw;
-        // margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center
-    }
+    // .email-form {
+    //     // width: 75vw;
+    //     // margin: 0 auto;
+    //     display: flex;
+    //     justify-content: center;
+    //     flex-direction: column;
+    //     align-items: center
+    // }
 
         // .email-form {
         //     // height: 100%;
